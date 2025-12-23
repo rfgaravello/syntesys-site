@@ -1,0 +1,105 @@
+/* global.css – Syntesys Final */
+
+/* ============================= */
+/* IMPORTAÇÃO TAILWIND           */
+/* ============================= */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================= */
+/* VARIÁVEIS DE CORES (TAILWIND CONFIG) */
+/* ============================= */
+/* background: #050b1a */
+/* surface: #0a1128 */
+/* text: #e0e7ff */
+/* primary: #22d3ee */
+/* secondary: #a855f7 */
+
+/* ============================= */
+/* ESTILOS GLOBAIS               */
+/* ============================= */
+
+/* Body */
+body {
+  @apply bg-background text-text font-sans min-h-screen;
+}
+
+/* Links */
+a {
+  @apply text-primary hover:text-secondary transition-colors duration-200 animate-pulse-glow;
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-text;
+}
+
+/* Botões */
+button {
+  @apply px-5 py-2 rounded-lg bg-primary text-background font-semibold
+         hover:bg-secondary transition-colors duration-200 animate-pulse-glow;
+}
+
+/* Inputs, Textareas e Selects */
+input, textarea, select {
+  @apply border border-surface rounded-md px-3 py-2
+         bg-background text-text focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary;
+}
+
+/* Cards */
+.card {
+  @apply bg-surface rounded-xl p-6 shadow-xl transition-transform duration-200 hover:scale-105 animate-pulse-glow;
+}
+
+/* Container principal */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  @apply text-text/70 text-sm flex space-x-2;
+}
+.breadcrumb a {
+  @apply hover:text-primary transition-colors duration-150 animate-pulse-glow;
+}
+
+/* ============================= */
+/* ANIMAÇÕES                     */
+/* ============================= */
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-in { animation: fade-in 0.2s ease-out forwards; }
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-up { animation: slide-up 0.3s ease-out forwards; }
+
+@keyframes pulse-glow {
+  0%,100% { box-shadow: 0 0 0px rgba(34,211,238,0.5); }
+  50% { box-shadow: 0 0 15px rgba(34,211,238,1); }
+}
+.animate-pulse-glow { animation: pulse-glow 2s infinite; }
+
+/* ============================= */
+/* ÍCONES MODERNOS (Lucide / Heroicons) */
+/* ============================= */
+.icon {
+  @apply w-6 h-6 text-primary inline-block animate-pulse-glow;
+}
+.icon:hover {
+  @apply text-secondary transition-colors duration-200;
+}
+
+/* ============================= */
+/* MOBILE E OUTROS AJUSTES       */
+/* ============================= */
+* {
+  box-sizing: border-box;
+}
