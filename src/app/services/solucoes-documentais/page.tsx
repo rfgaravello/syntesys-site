@@ -21,7 +21,7 @@ export default function SolucoesDocumentaisPage() {
         items={[
           { label: "Home", href: "/" },
           { label: "Serviços", href: "/services" },
-          { label: "Soluções Documentais" },
+          { label: "Solução Documental Digital através de ferramentas ECM - GED - Workflow" },
         ]}
       />
 

@@ -17,7 +17,7 @@ export default function assessoriaTecnologicaPage() {
         items={[
           { label: "Home", href: "/" },
           { label: "Serviços", href: "/services" },
-          { label: "Solução Documental Digital - GED - ECM" },
+          { label: "Assessoria Tecnológica para decisão estratégica de negócio" },
         ]}
       />
 

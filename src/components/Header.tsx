@@ -1,4 +1,6 @@
 'use client'
+
+
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
@@ -8,6 +10,7 @@ import { Cpu, BarChart2, Monitor, Cloud, Rocket, Settings, Code, Archive, Heart 
 export default function Header() {
   const [servicesOpen, setServicesOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
 
   const pathname = usePathname()
   const isServicesActive = pathname.startsWith("/services")
@@ -112,34 +115,62 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      {mobileOpen && (
-        <div className="md:hidden bg-surface border-t border-white/10 px-6 py-4 space-y-4 text-text/80">
-          <Link href="/services" onClick={() => setMobileOpen(false)}>
-            Serviços
-          </Link>
+{/* Mobile Menu */}
+{mobileOpen && (
+  <div className="md:hidden bg-surface border-t border-white/10 px-6 py-6 space-y-6 text-text/80">
 
-          <div className="pl-4 space-y-2 text-sm">
-            {services.map(({ label, href }) => (
-              <Link key={href} href={href} onClick={() => setMobileOpen(false)}>
-                {label}
-              </Link>
-            ))}
-          </div>
+    {/* Serviços Accordion */}
+    <div>
+      <button
+        onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+        className="w-full flex items-center justify-between font-medium text-base"
+      >
+        <span>Serviços</span>
+        <span className="text-lg">
+          {mobileServicesOpen ? "−" : "+"}
+        </span>
+      </button>
 
-          <Link href="/#about" onClick={() => setMobileOpen(false)}>
-            Sobre
-          </Link>
-
-          <Link
-            href="/#contact"
-            className="text-primary"
-            onClick={() => setMobileOpen(false)}
-          >
-            Contato
-          </Link>
+      {mobileServicesOpen && (
+        <div className="mt-4 space-y-2 animate-slide-up">
+          {services.map(({ icon, label, href }) => (
+            <Link
+              key={href}
+              href={href}
+              onClick={() => {
+                setMobileOpen(false)
+                setMobileServicesOpen(false)
+              }}
+              className="flex items-center gap-3 rounded-lg px-3 py-3
+                         hover:bg-white/5 transition"
+            >
+              <span className="text-cyan-400">{icon}</span>
+              <span className="text-sm">{label}</span>
+            </Link>
+          ))}
         </div>
       )}
+    </div>
+
+    {/* Outros links */}
+    <Link
+      href="/#about"
+      onClick={() => setMobileOpen(false)}
+      className="block"
+    >
+      Sobre
+    </Link>
+
+    <Link
+      href="/#contact"
+      className="block text-primary"
+      onClick={() => setMobileOpen(false)}
+    >
+      Contato
+    </Link>
+  </div>
+)}
+
     </header>
   )
 }
