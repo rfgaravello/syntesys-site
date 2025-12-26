@@ -2,6 +2,13 @@ import Breadcrumb from '../../../components/Breadcrumb'
 import ServicePage from '../../../components/ServicePage'
 import { assessoriaTecnologica } from '../../../lib/content/assessoriaTecnologica'
 
+export const metadata = {
+  title: "Assessoria Tecnológica | Syntesys",
+  description:
+    "Consultoria para tomada de decisão em escolha de ferramentas, processos para as áreas de negócios.",
+}
+
+
 export default function assessoriaTecnologicaPage() {
   return (
     <section
