@@ -5,7 +5,7 @@ export const assessoriaTecnologica: ServiceContent = {
   subtitle:
     "Apoiamos empresas na tomada de decisões estratégicas em tecnologia, conectando negócio, arquitetura, processos e inovação para gerar resultados reais e sustentáveis.",
 
-  heroImage: "/images/services/assessoria/hero-assessoria.png",
+  heroImage: "/images/services/Assessoria/hero-assessoria.png",
 
   sections: [
     {
@@ -16,7 +16,7 @@ export const assessoriaTecnologica: ServiceContent = {
         "Alinhamento entre TI e objetivos de negócio",
         "Roadmap tecnológico de curto, médio e longo prazo",
       ],
-      image: "/images/services/assessoria/diagnostico.png",
+      image: "/images/services/Assessoria/diagnostico.png",
     },
 
     {
@@ -27,7 +27,7 @@ export const assessoriaTecnologica: ServiceContent = {
         "Modernização de sistemas legados",
         "Arquitetura cloud, híbrida e on-premises",
       ],
-      image: "/images/services/assessoria/arquitetura.png",
+      image: "/images/services/Assessoria/arquitetura.png",
     },
 
     {
@@ -38,7 +38,7 @@ export const assessoriaTecnologica: ServiceContent = {
         "Adoção de boas práticas (ITIL, COBIT, DevOps)",
         "Estruturação de processos e documentação",
       ],
-      image: "/images/services/assessoria/governanca.png",
+      image: "/images/services/Assessoria/governanca.png",
     },
 
     {
@@ -49,7 +49,7 @@ export const assessoriaTecnologica: ServiceContent = {
         "Apoio em RFPs e seleção de fornecedores",
         "Avaliação de soluções e plataformas",
       ],
-      image: "/images/services/assessoria/decisao.png",
+      image: "/images/services/Assessoria/decisao.png",
     },
 
     {
@@ -60,7 +60,7 @@ export const assessoriaTecnologica: ServiceContent = {
         "Automação e digitalização de processos",
         "Evolução contínua da maturidade digital",
       ],
-      image: "/images/services/assessoria/inovacao.png",
+      image: "/images/services/Assessoria/inovacao.png",
     },
   ],
 
