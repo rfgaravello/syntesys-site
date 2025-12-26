@@ -1,5 +1,6 @@
 import Image from "next/image"
 
+
 export default function About() {
   return (
     <section className="py-28 bg-[#030712]">
@@ -51,11 +52,18 @@ export default function About() {
           {/* Assinatura */}
           <div className="pt-6">
             <p className="text-slate-400">
-              Fundada por{" "}
+               Criada por{" "}
               <span className="text-white font-medium">
-                Rafael Garavello
+                Rafael D. Garavello 
               </span>
-              , especialista em projetos de TI, cloud e governança tecnológica.
+              , especialista em projetos de TI, cloud e governança tecnológica. Profissional com 25 anos de experiência, Rafael já liderou iniciativas de transformação digital em empresas como
+              Unicamp, JBS, Nextel, Rodonaves, Metlife, Grupo SER Educacional, Unimed Recife, Tecfy, Tecnoset, entre outras. Certificado em ITIL, PMP-@PMI, ACP-PMI(Agile), Scrum. Liderou equipes 
+              técnicas de Dev, Suporte e implantação. Apaixonado por tecnologia e inovação, Rafael é um entusiasta da aplicação prática de novas tecnologias para resolver desafios de negócios.
+              Para maiores informações acesse seu perfil no Linkedin.
+              <p></p>
+              <a href="https://www.linkedin.com/in/rafaelgaravello/" target="_blank" rel="noopener noreferrer">
+              Linkedin de Rafael D. Garavello..
+              </a>
             </p>
           </div>
         </div>

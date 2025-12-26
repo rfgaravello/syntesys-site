@@ -66,7 +66,7 @@ const services = [
     title: "Infraestrutura de TI",
     description:
       "Projetamos, implementamos e gerenciamos infraestruturas tecnológicas seguras, escaláveis e alinhadas ao negócio.",
-    href: "/services/infraestruturaTI",
+    href: "/services/infraestrutura-ti",
     icon: Monitor,
     image: "/images/services/infraestrutura.png",
   },
@@ -74,7 +74,7 @@ const services = [
     title: "Transformação Digital para Negócios",
     description:
       "Ajudamos empresas a evoluírem seus modelos de negócio por meio da tecnologia, inovação e automação, gerando eficiência, competitividade e crescimento sustentável.",
-    href: "/services/transformacaoDigital",
+    href: "/services/transformacao-digital",
     icon: Users,
     image: "/images/services/transformacao.png",
   },
@@ -82,7 +82,7 @@ const services = [
     title: "Mentoria e Acomselhamento Emocional",
     description:
       "Oferecemos mentoria individual focada em desenvolvimento profissional, equilíbrio emocional e clareza de objetivos, promovendo bem-estar e alta performance.",
-    href: "/services/mentoria",
+    href: "/services/mentoria-saude-emocional",
     icon: Heart,
     image: "/images/services/saude.png",
   },
