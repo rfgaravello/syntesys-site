@@ -79,7 +79,7 @@ const services = [
     image: "/images/services/transformacao.png",
   },
   {
-    title: "Mentoria e Acomselhamento Emocional",
+    title: "Saúde Emocional no Trabalho",
     description:
       "Oferecemos mentoria individual focada em desenvolvimento profissional, equilíbrio emocional e clareza de objetivos, promovendo bem-estar e alta performance.",
     href: "/services/mentoria-saude-emocional",
