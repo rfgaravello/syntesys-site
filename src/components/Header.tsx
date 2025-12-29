@@ -24,7 +24,7 @@ export default function Header() {
     { icon: <Settings className="icon" />, label: "Automação de Processos", href: "/services/automacao-processos" },
     { icon: <Code className="icon" />, label: "Desenvolvimento Web & Mobile", href: "/services/desenvolvimento-web-mobile" },
     { icon: <Archive className="icon" />, label: "Solução Documental Digital", href: "/services/solucoes-documentais" },
-    { icon: <Heart className="icon" />, label: "Mentoria & Saúde Emocional", href: "/services/mentoria-saude-emocional" },
+    { icon: <Heart className="icon" />, label: "Mentoria & Saúde Emocional no Trabalho", href: "/services/mentoria-saude-emocional" },
   ]
 
   return (
