@@ -3,15 +3,16 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+//import { useState } from "react"
 import { usePathname } from "next/navigation"
 import { Cpu, BarChart2, Monitor, Cloud, Rocket, Settings, Code, Archive, Heart } from 'lucide-react'
+import { useState, useRef } from "react"
 
 export default function Header() {
   const [servicesOpen, setServicesOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
-
+  const closeTimeout = useRef<number | null>(null)
   const pathname = usePathname()
   const isServicesActive = pathname.startsWith("/services")
 
@@ -57,8 +58,21 @@ export default function Header() {
           {/* Serviços Dropdown */}
           <div
             className="relative"
-            onMouseEnter={() => setServicesOpen(true)}
-            onMouseLeave={() => setServicesOpen(false)}
+            //onMouseEnter={() => setServicesOpen(true)}
+            onMouseEnter={() => {
+              if (closeTimeout.current) {
+                clearTimeout(closeTimeout.current)
+                closeTimeout.current = null
+              }
+              setServicesOpen(true)
+            }}
+            
+            //onMouseLeave={() => setServicesOpen(false)}
+            onMouseLeave={() => {
+              closeTimeout.current = window.setTimeout(() => {
+                setServicesOpen(false)
+              }, 200)
+            }}
           >
             <Link
               href="/services"

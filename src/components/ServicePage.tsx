@@ -37,34 +37,18 @@ export default function ServicePage({ content }: ServicePageProps) {
       <header className="space-y-6 md:space-y-8">
 
         {content.heroImage && (
-          <div className="w-full flex justify-center">
-            <div
-              className="
-                w-full
-                bg-white
-                rounded-3xl
-                border border-white/10
-                overflow-hidden
-                flex items-center justify-center
-                max-h-[220px] sm:max-h-[320px] md:max-h-[420px]
-              "
-            >
-              <Image
-                src={content.heroImage}
-                alt={content.title}
-                width={1600}
-                height={600}
-                priority
-                unoptimized
-                className="
-                  w-full
-                  h-auto
-                  max-h-[220px] sm:max-h-[320px] md:max-h-[420px]
-                  object-contain
-                "
-              />
-            </div>
-          </div>
+          <div className="object-cover object-center relative w-full rounded-3xl border border-white/10 overflow-hidden
+          h-[220px] sm:h-[320px] md:h-[420px] bg-[#050b1a]
+        ">
+          <Image
+            src={content.heroImage}
+            alt={content.title}
+            fill
+            priority
+            unoptimized
+            className="object-contain"
+          />
+        </div>
         )}
 
         <div className="space-y-4">
@@ -134,31 +118,25 @@ export default function ServicePage({ content }: ServicePageProps) {
 
             {/* Imagem */}
             {section.image && (
-              <div
-                className="
-                  w-full
-                  bg-white
-                  rounded-2xl
-                  border border-white/10
-                  overflow-hidden
-                  flex items-center justify-center
-                  max-h-[220px] sm:max-h-[300px] md:max-h-[360px]
-                "
-              >
-                <Image
-                  src={section.image}
-                  alt={section.title}
-                  width={800}
-                  height={600}
-                  unoptimized
-                  className="
-                    w-full
-                    h-auto
-                    max-h-[220px] sm:max-h-[300px] md:max-h-[360px]
-                    object-contain
-                  "
-                />
-              </div>
+             <div
+             className="
+               relative w-full
+               rounded-2xl
+               border border-white/10
+               overflow-hidden
+               h-[220px] sm:h-[300px] md:h-[360px]
+               bg-white
+             "
+           >
+             <Image
+               src={section.image}
+               alt={section.title}
+               fill
+               unoptimized
+               className="object-contain"
+             />
+           </div>
+           
             )}
           </section>
         ))}
