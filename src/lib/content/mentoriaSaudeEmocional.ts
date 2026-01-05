@@ -46,7 +46,7 @@ export const mentoriaSaudeEmocional: ServiceContent = {
       // 🔥 CTA DIFERENCIADO PARA O PROGRAMA SER
       cta: {
         label: "Acessar Programa SER",
-        href: "https://programa-ser-mental-healthy-dx2f.vercel.app/",
+        href: "https://programaser.syntesys.com.br/",
       },
     },
 
