@@ -31,7 +31,7 @@ export default async function LocaleLayout({
 
         {/* 🔹 Google Analytics 4 */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"
+          src="https://www.googletagmanager.com/gtag/js?id=G-ZHWMEWNL3C"
           strategy="afterInteractive"
         />
         <Script id="ga4" strategy="afterInteractive">
