@@ -1,6 +1,6 @@
-import Breadcrumb from "../../../components/Breadcrumb"
-import ServicePage from "../../../components/ServicePage"
-import { mentoriaSaudeEmocional } from "../../../lib/content/mentoriaSaudeEmocional"
+import Breadcrumb from "../../../../components/Breadcrumb"
+import ServicePage from "../../../../components/ServicePage"
+import { mentoriaSaudeEmocional } from "../../../../lib/content/mentoriaSaudeEmocional"
 
 export const metadata = {
   title: "Mentoria & Saúde Emocional | Syntesys",
