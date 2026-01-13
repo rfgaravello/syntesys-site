@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+/*const nextConfig = {
     output: "export",
   
     images: {
@@ -7,5 +7,16 @@ const nextConfig = {
     },
   }
   
-  module.exports = nextConfig
+  module.exports = nextConfig*/
+
+  const createNextIntlPlugin = require('next-intl/plugin');
+ 
+const withNextIntl = createNextIntlPlugin();
+ 
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+ 
+module.exports = withNextIntl(nextConfig);
+
+  
   

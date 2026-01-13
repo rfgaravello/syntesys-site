@@ -1,76 +1,49 @@
+import { useTranslations } from "next-intl"
 import { ServiceContent } from "../../components/ServicePage"
 
-export const assessoriaTecnologica: ServiceContent = {
-  title: "Assessoria Tecnológica",
-  subtitle:
-    "Apoiamos empresas na tomada de decisões estratégicas em tecnologia, conectando negócio, arquitetura, processos e inovação para gerar resultados reais e sustentáveis.",
+export function getAssessoriaTecnologicaContent(
+  t: ReturnType<typeof useTranslations>
+): ServiceContent {
+  return {
+    title: t("service.assessoria.title"),
+    subtitle: t("service.assessoria.subtitle"),
+    heroImage: "/images/services/Assessoria/hero-assessoria.png",
 
-  heroImage: "/images/services/Assessoria/hero-assessoria.png",
+    sections: [
+      {
+        title: t("service.assessoria.sections.diagnostico.title"),
+        items: t.raw("service.assessoria.sections.diagnostico.items"),
+        image: "/images/services/Assessoria/diagnostico.png",
+      },
+      {
+        title: t("service.assessoria.sections.arquitetura.title"),
+        items: t.raw("service.assessoria.sections.arquitetura.items"),
+        image: "/images/services/Assessoria/arquitetura.png",
+      },
+      {
+        title: t("service.assessoria.sections.governanca.title"),
+        items: t.raw("service.assessoria.sections.governanca.items"),
+        image: "/images/services/Assessoria/governanca.png",
+      },
+      {
+        title: t("service.assessoria.sections.decisao.title"),
+        items: t.raw("service.assessoria.sections.decisao.items"),
+        image: "/images/services/Assessoria/decisao.png",
+      },
+      {
+        title: t("service.assessoria.sections.inovacao.title"),
+        items: t.raw("service.assessoria.sections.inovacao.items"),
+        image: "/images/services/Assessoria/inovacao.png",
+      },
+    ],
 
-  sections: [
-    {
-      title: "Diagnóstico e Estratégia de TI",
-      items: [
-        "Avaliação do cenário tecnológico atual",
-        "Identificação de gargalos, riscos e oportunidades",
-        "Alinhamento entre TI e objetivos de negócio",
-        "Roadmap tecnológico de curto, médio e longo prazo",
-      ],
-      image: "/images/services/Assessoria/diagnostico.png",
+    cta: {
+      title: t("service.assessoria.cta.title"),
+      subtitle: t("service.assessoria.cta.subtitle"),
+      button: {
+        label: t("service.assessoria.cta.button"),
+        href: "https://wa.me/5519996210076",
+      },
     },
-
-    {
-      title: "Arquitetura de Soluções",
-      items: [
-        "Definição de arquiteturas escaláveis e seguras",
-        "Escolha de tecnologias adequadas ao contexto",
-        "Modernização de sistemas legados",
-        "Arquitetura cloud, híbrida e on-premises",
-      ],
-      image: "/images/services/Assessoria/arquitetura.png",
-    },
-
-    {
-      title: "Governança e Boas Práticas",
-      items: [
-        "Definição de padrões e políticas de TI",
-        "Gestão de riscos e compliance",
-        "Adoção de boas práticas (ITIL, COBIT, DevOps)",
-        "Estruturação de processos e documentação",
-      ],
-      image: "/images/services/Assessoria/governanca.png",
-    },
-
-    {
-      title: "Apoio à Tomada de Decisão",
-      items: [
-        "Suporte técnico para líderes e executivos",
-        "Análise de viabilidade técnica e financeira",
-        "Apoio em RFPs e seleção de fornecedores",
-        "Avaliação de soluções e plataformas",
-      ],
-      image: "/images/services/Assessoria/decisao.png",
-    },
-
-    {
-      title: "Inovação e Transformação Digital",
-      items: [
-        "Identificação de oportunidades de inovação",
-        "Adoção de novas tecnologias e modelos",
-        "Automação e digitalização de processos",
-        "Evolução contínua da maturidade digital",
-      ],
-      image: "/images/services/Assessoria/inovacao.png",
-    },
-  ],
-
-  cta: {
-    title: "Sua tecnologia está alinhada ao seu negócio?",
-    subtitle:
-      "Conte com uma assessoria independente e experiente para orientar suas decisões estratégicas em TI.",
-    button: {
-      label: "Falar com um especialista",
-      href: "https://wa.me/5519996210076",
-    },
-  },
+  }
 }

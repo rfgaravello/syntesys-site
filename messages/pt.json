@@ -1,0 +1,681 @@
+{
+  "common": {
+    "learnMore": "Saiba mais"
+  },
+  "header": {
+    "logo": {
+      "alt": "Syntesys - Consultoria em Tecnologia",
+      "tagline": "",
+      "title": "Consultoria em Tecnologia"
+    },
+    "menu": {
+      "services": "Serviços",
+      "about": "Sobre",
+      "contact": "Contato"
+    },
+    "services": {
+      "items": {
+        "techConsulting": "Assessoria Tecnológica",
+        "pmo": "Gestão de Projetos (PMO)",
+        "infrastructure": "Infraestrutura de TI",
+        "cloud": "Cloud & DevOps",
+        "digitalTransformation": "Transformação Digital",
+        "automation": "Automação de Processos",
+        "dev": "Desenvolvimento Web & Mobile",
+        "document": "Solução Documental Digital",
+        "mentoring": "Mentoria & Saúde Emocional no Trabalho"
+      }
+    }
+  },
+
+  "home": {
+    "hero": {
+      "title": "Tecnologia que impulsiona decisões estratégicas",
+      "subtitle": "Consultoria especializada para empresas modernas",
+      "imageAlt": "Tecnologia e estratégia",
+      "cta": {
+        "text": "Fale com um especialista",
+        "link": "https://wa.me/5519996210076"
+      }
+    }
+  },
+  
+    "services": {
+      "title": "Soluções tecnológicas para escalar negócios com segurança",
+      "subtitle": "Atuamos da estratégia à execução, conectando tecnologia, processos e pessoas para acelerar resultados com previsibilidade e governança.",
+      
+      "breadcrumb": {
+        "home": "Home",
+        "services": "Serviços"
+      },
+  
+      "assessoria": {
+        "title": "Assessoria Tecnológica",
+        "description": "Consultoria especializada para otimizar sua tecnologia."
+      },
+      "pmo": {
+        "title": "Gestão de Projetos (PMO)",
+        "description": "Planejamento e acompanhamento eficiente de projetos de TI."
+      },
+      "infra": {
+        "title": "Infraestrutura de TI",
+        "description": "Suporte e manutenção da sua infraestrutura tecnológica."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Serviços em nuvem e automação de operações."
+      },
+      "digital": {
+        "title": "Transformação Digital",
+        "description": "Digitalize processos e modernize sua empresa."
+      },
+      "automation": {
+        "title": "Automação de Processos",
+        "description": "Reduza custos e aumente eficiência com automações."
+      },
+      "web": {
+        "title": "Desenvolvimento Web & Mobile",
+        "description": "Criação de aplicativos e sites modernos e escaláveis."
+      },
+      "documental": {
+        "title": "Solução Documental Digital",
+        "description": "Possuímos qualificação profissional para gestão de conteúdo eletrônico."
+      },
+      "mentoria": {
+        "title": "Mentoria & Saúde Emocional",
+        "description": "Apoio e mentoria para equipes e líderes de TI."
+      },
+      "services": {
+        "title": "Soluções tecnológicas para escalar negócios com segurança",
+        "subtitle": "Atuamos da estratégia à execução, conectando tecnologia, processos e pessoas para acelerar resultados com previsibilidade e governança."
+      },
+      "explore": "Explorar serviço",
+      "cta": {
+        "text": "Fale com um especialista",
+        "link": "https://wa.me/5519996210076"
+      },
+      "items": {
+        "tech": {
+          "title": "Assessoria Tecnológica",
+          "description": "Apoio estratégico em decisões de tecnologia, arquitetura e inovação para líderes e empresas."
+        },
+        "pmo": {
+          "title": "Gestão de Projetos (PMO)",
+          "description": "Planejamento, controle e execução de projetos de TI com foco em previsibilidade e resultado."
+        },
+        "cloud": {
+          "title": "Cloud & DevOps",
+          "description": "Infraestrutura moderna, escalável e segura, com automação e boas práticas em nuvem."
+        },
+        "automation": {
+          "title": "Automação de Processos",
+          "description": "Redução de custos operacionais e aumento de eficiência com automações inteligentes."
+        },
+        "dev": {
+          "title": "Desenvolvimento Web & Mobile",
+          "description": "Aplicações modernas, performáticas e orientadas à experiência do usuário."
+        },
+        "document": {
+          "title": "Soluções Documentais para áreas de Negócios",
+          "description": "Serviços de digitalização e gestão de documentos físicos e eletrônicos com sistemas ECM."
+        },
+        "infrastructure": {
+          "title": "Infraestrutura de TI",
+          "description": "Projetamos, implementamos e gerenciamos infraestruturas tecnológicas seguras e escaláveis."
+        },
+        "digital": {
+          "title": "Transformação Digital para Negócios",
+          "description": "Evolução de modelos de negócio por meio da tecnologia, inovação e automação."
+        },
+        "mentoring": {
+          "title": "Saúde Emocional no Trabalho",
+          "description": "Mentoria focada em desenvolvimento profissional, equilíbrio emocional e alta performance."
+        }
+      }
+    },
+
+    "about": {
+      "title": "Sobre a Syntesys",
+      "intro": "A Syntesys é uma consultoria de tecnologia focada em transformar estratégia em execução, alinhando tecnologia, processos e governança para gerar resultados reais e sustentáveis.",
+      "mission": "Atuamos junto a líderes e empresas que precisam tomar decisões seguras, estruturar iniciativas de TI e conduzir transformações digitais com clareza técnica, visão de negócio e controle.",
+      "highlights": [
+        "Atuação prática em projetos de TI, cloud e transformação digital",
+        "Visão estratégica combinada com execução técnica de alto nível",
+        "Relacionamento próximo, transparente e orientado a resultados"
+      ],
+      "signature": {
+        "prefix": "Fundada por",
+        "bio": "especialista em projetos de TI, cloud e governança tecnológica.",
+        "experience": "Com mais de 25 anos de experiência, Rafael liderou iniciativas de transformação digital, modernização tecnológica e governança de TI em organizações como Unicamp, JBS, Nextel, Rodonaves, MetLife, Grupo SER Educacional, Unimed Recife, Tecfy e Tecnoset. Possui certificações ITIL, PMP (PMI), ACP-PMI (Agile) e Scrum, com histórico sólido na liderança de equipes técnicas e na entrega de resultados consistentes.",
+        "linkedinText": "Acesse o LinkedIn de Rafael D. Garavello",
+        "linkedinUrl": "https://www.linkedin.com/in/rafaelgaravello/"
+      },
+      "imageAlt": "Equipe, tecnologia e colaboração"
+    },
+    "contact": {
+      "title": "Vamos falar sobre o seu desafio?",
+      "subtitle": "Se você busca apoio estratégico em tecnologia, projetos de TI, cloud ou transformação digital, a Syntesys pode ajudar.",
+      "cta": {
+        "whatsapp": {
+          "text": "Conversar no WhatsApp",
+          "link": "https://wa.me/5519996210076"
+        },
+        "email": {
+          "text": "contato@syntesys.com.br",
+          "link": "mailto:contato@syntesys.com.br"
+        }
+      },
+      "note": "Atendimento consultivo, direto com o especialista e sem intermediários."
+    },
+    "footer": {
+      "copyright": "© {year} Syntesys. Todos os direitos reservados."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Serviços"
+    },
+   
+    "service": {
+      "transformacao": {
+        "title": "Transformação Digital para Negócios",
+        "subtitle": "Ajudamos empresas a evoluírem seus modelos de negócio por meio da tecnologia, inovação e automação, gerando eficiência, competitividade e crescimento sustentável.",
+  
+        "sections": {
+          "diagnostico": {
+            "title": "Diagnóstico Digital",
+            "items": [
+              "Análise do modelo de negócio atual",
+              "Mapeamento de processos e gargalos",
+              "Avaliação de maturidade digital",
+              "Identificação de oportunidades de inovação",
+              "Roadmap estratégico de transformação"
+            ]
+          },
+          "processos": {
+            "title": "Redesenho de Processos",
+            "items": [
+              "Otimização e digitalização de processos",
+              "Eliminação de atividades manuais e redundantes",
+              "Integração entre sistemas e áreas",
+              "Adoção de boas práticas e metodologias ágeis",
+              "Melhoria contínua orientada a dados"
+            ]
+          },
+          "tecnologia": {
+            "title": "Tecnologia como Habilitadora",
+            "items": [
+              "Implantação de plataformas digitais",
+              "Soluções cloud e sistemas integrados",
+              "Automação de fluxos de trabalho",
+              "Uso estratégico de dados e analytics",
+              "Escalabilidade e sustentabilidade tecnológica"
+            ]
+          },
+          "mudanca": {
+            "title": "Gestão da Mudança",
+            "items": [
+              "Engajamento das equipes",
+              "Capacitação e treinamento",
+              "Comunicação estruturada da transformação",
+              "Acompanhamento da adoção tecnológica",
+              "Redução de riscos organizacionais"
+            ]
+          },
+          "resultados": {
+            "title": "Resultados e Performance",
+            "items": [
+              "Definição de indicadores (KPIs)",
+              "Monitoramento de resultados",
+              "Ganho de eficiência operacional",
+              "Redução de custos e retrabalho",
+              "Aumento da competitividade no mercado"
+            ]
+          }
+        }
+      },
+      "documental": {
+        "title": "Soluções Documentais (ECM / GED & Workflow Digital)",
+        "subtitle": "Transformamos documentos físicos e digitais em informação estratégica, estruturando repositórios seguros, workflows inteligentes e governança documental para áreas de negócio.",
+  
+        "sections": {
+          "ecm": {
+            "title": "Gestão Eletrônica de Documentos (GED / ECM)",
+            "items": [
+              "Implantação e evolução de plataformas ECM e GED",
+              "Centralização e organização de documentos corporativos",
+              "Controle de versões, permissões e auditoria",
+              "Conformidade com políticas internas e requisitos legais",
+              "Redução de riscos e aumento da rastreabilidade"
+            ]
+          },
+          "scanning": {
+            "title": "Digitalização de Documentos Físicos",
+            "items": [
+              "Mapeamento de acervos físicos",
+              "Definição de padrões de digitalização",
+              "Classificação e indexação inteligente",
+              "OCR para extração de dados e texto pesquisável",
+              "Eliminação do papel com segurança jurídica"
+            ]
+          },
+          "workflow": {
+            "title": "Análise e Desenho de Workflows",
+            "items": [
+              "Levantamento de processos documentais atuais (AS-IS)",
+              "Redesenho de fluxos digitais (TO-BE)",
+              "Automação de aprovações e validações",
+              "Integração entre áreas e sistemas",
+              "Aumento de produtividade e redução de gargalos"
+            ]
+          },
+          "tools": {
+            "title": "Ferramentas e Plataformas Atendidas",
+            "items": [
+              "OnBase (Hyland)",
+              "Perceptive Content (ImageNow)",
+              "FileDirector",
+              "SharePoint e soluções Microsoft",
+              "Outras plataformas ECM e GED de mercado"
+            ]
+          },
+          "governance": {
+            "title": "Governança, Segurança e Compliance",
+            "items": [
+              "Definição de políticas de retenção documental",
+              "Gestão de acessos e perfis de usuário",
+              "Trilhas de auditoria e histórico de alterações",
+              "Aderência à LGPD e normas regulatórias",
+              "Proteção da informação corporativa"
+            ]
+          },
+          "benefits": {
+            "title": "Benefícios para o Negócio",
+            "items": [
+              "Redução de custos operacionais",
+              "Agilidade na busca e uso da informação",
+              "Menos dependência de papel e arquivos físicos",
+              "Aumento da eficiência dos processos",
+              "Tomada de decisão baseada em informação confiável"
+            ]
+          }
+        },
+  
+        "cta": {
+          "title": "Sua gestão documental está preparada para escalar?",
+          "subtitle": "Vamos estruturar processos, tecnologia e governança para transformar documentos em ativos estratégicos do negócio.",
+          "button": "Falar com um especialista"
+        }
+      },
+      "infraestrutura": {
+        "title": "Infraestrutura de TI",
+        "subtitle": "Planejamos, implementamos e sustentamos infraestruturas de TI robustas, seguras e preparadas para crescimento, garantindo disponibilidade, desempenho e governança.",
+  
+        "sections": {
+          "corporate": {
+            "title": "Infraestrutura Corporativa",
+            "items": [
+              "Ambientes on-premises, híbridos e cloud",
+              "Servidores, storage e virtualização",
+              "Alta disponibilidade e continuidade de negócio",
+              "Padronização e documentação técnica"
+            ]
+          },
+          "virtualization": {
+            "title": "Virtualização e Containers",
+            "items": [
+              "VMware, Hyper-V e KVM",
+              "Docker e Kubernetes",
+              "Otimização de recursos computacionais",
+              "Ambientes isolados e seguros"
+            ]
+          },
+          "network": {
+            "title": "Redes e Conectividade",
+            "items": [
+              "Topologias seguras e escaláveis",
+              "VPNs, firewalls e balanceadores",
+              "Segmentação de rede e controle de tráfego",
+              "Integração entre sites e cloud"
+            ]
+          },
+          "backup": {
+            "title": "Backup, Disaster Recovery e Alta Disponibilidade",
+            "items": [
+              "Estratégias de backup e restore",
+              "Planos de Disaster Recovery",
+              "Testes periódicos de recuperação",
+              "Redução de riscos operacionais"
+            ]
+          },
+          "monitoring": {
+            "title": "Monitoramento e Suporte",
+            "items": [
+              "Monitoramento de servidores e serviços",
+              "Identificação proativa de falhas",
+              "Suporte técnico especializado",
+              "Aumento da estabilidade do ambiente"
+            ]
+          }
+        },
+  
+        "cta": {
+          "title": "Sua infraestrutura está preparada para o futuro?",
+          "subtitle": "Vamos avaliar, otimizar e evoluir seu ambiente de TI com segurança e visão estratégica.",
+          "button": "Falar com um especialista"
+        }
+      },
+      "gestaoprojetos": {
+        "title": "Gestão de Projetos de TI (PMO)",
+        "subtitle": "Governança, previsibilidade e controle para projetos de tecnologia, garantindo alinhamento estratégico, eficiência operacional e entrega de resultados.",
+  
+        "sections": {
+          "pmo": {
+            "title": "Estruturação e Operação de PMO",
+            "items": [
+              "Implantação de PMO estratégico ou operacional",
+              "Definição de governança, processos e rituais",
+              "Padronização de metodologias e templates",
+              "Acompanhamento do portfólio de projetos"
+            ]
+          },
+          "planning": {
+            "title": "Planejamento e Controle de Projetos",
+            "items": [
+              "Planejamento de escopo, prazo e custos",
+              "Definição de cronogramas e marcos",
+              "Controle financeiro e orçamentário",
+              "Gestão de dependências e prioridades"
+            ]
+          },
+          "methods": {
+            "title": "Metodologias Tradicionais, Ágeis e Híbridas",
+            "items": [
+              "PMBOK, Prince2 e modelos tradicionais",
+              "Scrum, Kanban e frameworks ágeis",
+              "Modelos híbridos adaptados ao negócio",
+              "Adoção conforme maturidade organizacional"
+            ]
+          },
+          "risk": {
+            "title": "Gestão de Riscos, Mudanças e Comunicação",
+            "items": [
+              "Identificação e mitigação de riscos",
+              "Gestão estruturada de mudanças",
+              "Comunicação clara com stakeholders",
+              "Relatórios executivos e status reports"
+            ]
+          },
+          "dashboard": {
+            "title": "Dashboards e Visão Executiva",
+            "items": [
+              "Indicadores de performance (KPIs)",
+              "Dashboards de acompanhamento executivo",
+              "Visibilidade de prazos, custos e riscos",
+              "Suporte à tomada de decisão estratégica"
+            ]
+          }
+        },
+  
+        "cta": {
+          "title": "Seus projetos estão sob controle?",
+          "subtitle": "Apoiamos sua empresa na estruturação, governança e execução de projetos de TI com previsibilidade e foco em resultado.",
+          "button": "Falar com um especialista"
+        }
+      },
+      "webmobile": {
+        "title": "Desenvolvimento Web & Mobile",
+        "subtitle": "Criamos aplicações web e mobile modernas, escaláveis e focadas na melhor experiência do usuário, alinhadas aos objetivos do negócio.",
+  
+        "sections": {
+          "frontend": {
+            "title": "Desenvolvimento Front-end",
+            "items": [
+              "Interfaces modernas e responsivas",
+              "Experiência do usuário (UX/UI)",
+              "Aplicações rápidas e acessíveis",
+              "Uso de frameworks modernos como React e Next.js"
+            ]
+          },
+          "backend": {
+            "title": "Desenvolvimento Back-end",
+            "items": [
+              "APIs escaláveis e seguras",
+              "Integração com sistemas e bancos de dados",
+              "Arquitetura orientada a serviços",
+              "Alta performance e confiabilidade"
+            ]
+          },
+          "mobile": {
+            "title": "Aplicações Mobile",
+            "items": [
+              "Desenvolvimento para Android e iOS",
+              "Aplicações híbridas e nativas",
+              "Integração com APIs e serviços cloud",
+              "Foco em performance e usabilidade"
+            ]
+          },
+          "architecture": {
+            "title": "Arquitetura e Escalabilidade",
+            "items": [
+              "Arquiteturas modernas e desacopladas",
+              "Preparação para crescimento e alta demanda",
+              "Boas práticas de segurança",
+              "Infraestrutura preparada para cloud"
+            ]
+          },
+          "quality": {
+            "title": "Qualidade e Governança",
+            "items": [
+              "Testes automatizados",
+              "Controle de versões e CI/CD",
+              "Boas práticas de desenvolvimento",
+              "Manutenibilidade e evolução contínua"
+            ]
+          }
+        },
+  
+        "cta": {
+          "title": "Pronto para transformar sua ideia em produto?",
+          "subtitle": "Desenvolvemos soluções digitais sob medida para escalar seu negócio com segurança e eficiência.",
+          "button": "Falar com um especialista"
+        }
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "subtitle": "Projetamos, implementamos e operamos ambientes cloud modernos, seguros e escaláveis, aplicando práticas DevOps para acelerar entregas e reduzir riscos operacionais.",
+  
+        "sections": {
+          "architecture": {
+            "title": "Arquitetura Cloud Moderna",
+            "items": [
+              "Arquitetura em nuvem baseada em AWS, Azure ou GCP",
+              "Ambientes altamente disponíveis e escaláveis",
+              "Redução de custos com uso eficiente de recursos",
+              "Segurança desde o desenho da arquitetura (Security by Design)"
+            ]
+          },
+          "iac": {
+            "title": "Infraestrutura como Código (IaC)",
+            "items": [
+              "Provisionamento automatizado com Terraform",
+              "Ambientes versionados e auditáveis",
+              "Padronização entre dev, homologação e produção",
+              "Menos erros humanos e mais previsibilidade"
+            ]
+          },
+          "cicd": {
+            "title": "Pipelines CI/CD",
+            "items": [
+              "Automação de build, testes e deploy",
+              "Integração com GitHub Actions, GitLab CI ou Azure DevOps",
+              "Deploy contínuo com rollback automático",
+              "Maior velocidade e segurança nas entregas"
+            ]
+          },
+          "monitoring": {
+            "title": "Observabilidade e Monitoramento",
+            "items": [
+              "Monitoramento de infraestrutura e aplicações",
+              "Dashboards em tempo real",
+              "Alertas proativos para incidentes",
+              "Uso de ferramentas como Grafana, Prometheus e CloudWatch"
+            ]
+          },
+          "security": {
+            "title": "Segurança e Governança",
+            "items": [
+              "Controle de acessos e identidades (IAM)",
+              "Políticas de segurança e compliance",
+              "Auditoria de ambientes cloud",
+              "Boas práticas alinhadas a ISO e frameworks de mercado"
+            ]
+          }
+        },
+  
+        "cta": {
+          "title": "Pronto para evoluir sua infraestrutura?",
+          "subtitle": "Vamos desenhar juntos uma estratégia Cloud & DevOps segura, escalável e alinhada aos objetivos do seu negócio.",
+          "button": "Falar com um especialista"
+        }
+      },
+     
+      "automacao": {
+        "title": "Automação de Processos",
+        "subtitle": "Automatizamos processos operacionais e de negócio para reduzir custos, eliminar retrabalho e aumentar eficiência, utilizando tecnologia moderna, integrações e inteligência de dados.",
+  
+        "sections": {
+          "mapeamento": {
+            "title": "Mapeamento e Análise de Processos",
+            "items": [
+              "Levantamento detalhado dos processos atuais (AS-IS)",
+              "Identificação de gargalos, falhas e retrabalho",
+              "Análise de viabilidade técnica e financeira",
+              "Definição de processos futuros otimizados (TO-BE)"
+            ]
+          },
+          "workflows": {
+            "title": "Automação de Fluxos e Workflows",
+            "items": [
+              "Criação de workflows automatizados",
+              "Automação de aprovações e tarefas repetitivas",
+              "Integração entre sistemas e plataformas",
+              "Orquestração de processos ponta a ponta"
+            ]
+          },
+          "apis": {
+            "title": "Integrações e APIs",
+            "items": [
+              "Integração entre ERPs, CRMs e sistemas internos",
+              "Criação e consumo de APIs REST",
+              "Automação baseada em eventos",
+              "Sincronização e consistência de dados"
+            ]
+          },
+          "rpa": {
+            "title": "RPA e Automação Inteligente",
+            "items": [
+              "Automação robótica de processos (RPA)",
+              "Automação de tarefas manuais em sistemas legados",
+              "Uso de IA para classificação e decisões simples",
+              "Redução de erros operacionais"
+            ]
+          },
+          "monitoramento": {
+            "title": "Monitoramento e Melhoria Contínua",
+            "items": [
+              "Monitoramento de performance dos processos",
+              "Métricas e indicadores de eficiência",
+              "Ajustes contínuos e otimizações",
+              "Evolução gradual da maturidade operacional"
+            ]
+          }
+        },
+  
+        "cta": {
+          "title": "Seus processos estão ajudando ou travando o crescimento?",
+          "subtitle": "Automação bem aplicada transforma operação, reduz custos e libera tempo para o que realmente importa.",
+          "button": "Quero automatizar meus processos"
+        }
+      },
+      "assessoria": {
+        "title": "Assessoria Tecnológica",
+        "subtitle": "Apoiamos empresas na tomada de decisões estratégicas em tecnologia, conectando negócio, arquitetura, processos e inovação.",
+  
+        "sections": {
+          "diagnostico": {
+            "title": "Diagnóstico e Estratégia de TI",
+            "items": [
+              "Avaliação do cenário tecnológico atual",
+              "Identificação de gargalos, riscos e oportunidades",
+              "Alinhamento entre TI e objetivos de negócio",
+              "Roadmap tecnológico de curto, médio e longo prazo"
+            ]
+          },
+          "arquitetura": {
+            "title": "Arquitetura de Soluções",
+            "items": [
+              "Definição de arquiteturas escaláveis e seguras",
+              "Escolha de tecnologias adequadas ao contexto",
+              "Modernização de sistemas legados",
+              "Arquitetura cloud, híbrida e on-premises"
+            ]
+          },
+          "governanca": {
+            "title": "Governança e Boas Práticas",
+            "items": [
+              "Definição de padrões e políticas de TI",
+              "Gestão de riscos e compliance",
+              "Adoção de boas práticas (ITIL, COBIT, DevOps)",
+              "Estruturação de processos e documentação"
+            ]
+          },
+          "decisao": {
+            "title": "Apoio à Tomada de Decisão",
+            "items": [
+              "Suporte técnico para líderes e executivos",
+              "Análise de viabilidade técnica e financeira",
+              "Apoio em RFPs e seleção de fornecedores",
+              "Avaliação de soluções e plataformas"
+            ]
+          },
+          "inovacao": {
+            "title": "Inovação e Transformação Digital",
+            "items": [
+              "Identificação de oportunidades de inovação",
+              "Adoção de novas tecnologias e modelos",
+              "Automação e digitalização de processos",
+              "Evolução contínua da maturidade digital"
+            ]
+          }
+        },
+  
+        "cta": {
+          "title": "Sua tecnologia está alinhada ao seu negócio?",
+          "subtitle": "Conte com uma assessoria independente e experiente para orientar suas decisões estratégicas em TI.",
+          "button": "Falar com um especialista"
+        }
+      },    
+      
+        "title": "Assessoria Tecnológica",
+        "intro": "Apoiamos empresas e líderes na tomada de decisões estratégicas em tecnologia.",
+        "description": "Nossa assessoria tecnológica atua desde a definição de arquitetura e soluções até o alinhamento entre tecnologia, negócio e governança, garantindo decisões mais seguras, eficientes e sustentáveis.",
+        "benefits": {
+          "title": "O que você ganha com nossa assessoria",
+          "items": [
+            "Decisões tecnológicas alinhadas à estratégia do negócio",
+            "Redução de riscos técnicos e financeiros",
+            "Visão externa especializada e imparcial",
+            "Apoio contínuo em arquitetura, fornecedores e inovação"
+          ]
+        },
+        "approach": {
+          "title": "Nossa abordagem",
+          "text": "Trabalhamos de forma próxima ao cliente, entendendo o contexto do negócio, desafios técnicos e objetivos estratégicos para propor soluções práticas e viáveis."
+        }
+      }
+    }
+    
+  
+  
+  
+
