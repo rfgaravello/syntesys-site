@@ -30,6 +30,9 @@ export default function Header() {
   const pathname = usePathname()
   const isServicesActive = pathname.includes("/services")
 
+  // Helper: prefixa locale corretamente
+  const withLocale = (href: string) => `/${locale}${href}`
+
   const services = [
     { key: "assessoria", icon: <Cpu className="icon" />, label: t('services.items.techConsulting'), href: "/services/assessoria-tecnologica" },
     { key: "pmo", icon: <BarChart2 className="icon" />, label: t('services.items.pmo'), href: "/services/gestao-projetos-ti" },
@@ -42,11 +45,9 @@ export default function Header() {
     { key: "mentoria", icon: <Heart className="icon" />, label: t('services.items.mentoring'), href: "/services/mentoria-saude-emocional" },
   ]
 
-  // 🔒 REGRA: mentoria só aparece em PT
+  // 🔒 Mentoria só aparece em PT
   const filteredServices = services.filter(service => {
-    if (service.key === "mentoria" && locale !== "pt") {
-      return false
-    }
+    if (service.key === "mentoria" && locale !== "pt") return false
     return true
   })
 
@@ -55,7 +56,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
+        <Link href={`/${locale}`} className="flex items-center gap-3">
           <Image
             src="/images/logo/syntesys-logo.svg"
             alt={t('logo.alt')}
@@ -69,10 +70,7 @@ export default function Header() {
             <span className="block text-sm font-semibold text-white">
               {t('logo.tagline')}
             </span>
-            <span
-              className="text-3xl md:text-4xl xl:text-5xl font-bold leading-tight
-              bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent"
-            >
+            <span className="text-3xl md:text-4xl xl:text-5xl font-bold leading-tight bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">
               {t('logo.title')}
             </span>
           </div>
@@ -95,7 +93,7 @@ export default function Header() {
             }}
           >
             <Link
-              href="/services"
+              href={withLocale("/services")}
               className={`transition ${
                 isServicesActive
                   ? "text-primary font-semibold"
@@ -106,16 +104,12 @@ export default function Header() {
             </Link>
 
             {servicesOpen && (
-              <div
-                className="absolute top-10 left-0 w-80 rounded-2xl border border-white/10
-                bg-gradient-to-b from-surface to-background shadow-2xl backdrop-blur-md
-                animate-slide-up"
-              >
+              <div className="absolute top-10 left-0 w-80 rounded-2xl border border-white/10 bg-gradient-to-b from-surface to-background shadow-2xl backdrop-blur-md animate-slide-up">
                 <ul className="py-3">
                   {filteredServices.map(({ key, icon, label, href }) => (
                     <li key={key}>
                       <Link
-                        href={href}
+                        href={withLocale(href)}
                         className="flex items-center gap-3 px-5 py-2.5 hover:bg-white/5"
                       >
                         {icon}
@@ -128,9 +122,9 @@ export default function Header() {
             )}
           </div>
 
-          <Link href="/about">{t('menu.about')}</Link>
+          <Link href={withLocale("/about")}>{t('menu.about')}</Link>
 
-          <Link href="/contact" className="text-primary">
+          <Link href={withLocale("/contact")} className="text-primary">
             {t('menu.contact')}
           </Link>
         </nav>
@@ -167,7 +161,7 @@ export default function Header() {
               {filteredServices.map(({ key, icon, label, href }) => (
                 <Link
                   key={key}
-                  href={href}
+                  href={withLocale(href)}
                   onClick={() => setMobileOpen(false)}
                   className="flex items-center gap-3 px-3 py-2"
                 >
@@ -178,9 +172,9 @@ export default function Header() {
             </div>
           )}
 
-          <Link href="/about">{t('menu.about')}</Link>
+          <Link href={withLocale("/about")}>{t('menu.about')}</Link>
 
-          <Link href="/contact" className="text-primary">
+          <Link href={withLocale("/contact")} className="text-primary">
             {t('menu.contact')}
           </Link>
 

@@ -7,6 +7,9 @@ export default function Services() {
   const t = useTranslations("services")
   const locale = useLocale()
 
+  // Helper: garante que o locale atual seja mantido
+  const withLocale = (href: string) => `/${locale}${href}`
+
   const services = [
     {
       key: "assessoria",
@@ -80,7 +83,7 @@ export default function Services() {
             key={service.key}
             title={t(`${service.key}.title`)}
             description={t(`${service.key}.description`)}
-            href={service.href}
+            href={withLocale(service.href)}
             icon={service.icon}
           />
         ))}

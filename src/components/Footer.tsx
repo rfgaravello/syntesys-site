@@ -2,11 +2,12 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 import LanguageSwitcher from "./LanguageSwitcher"
 
 export default function Footer() {
   const t = useTranslations("footer")
+  const locale = useLocale()
   const year = new Date().getFullYear()
 
   return (
@@ -17,7 +18,7 @@ export default function Footer() {
         items-center justify-between gap-6"
       >
         {/* Logo */}
-        <Link href="/" className="shrink-0">
+        <Link href={`/${locale}`} className="shrink-0">
           <Image
             src="/images/logo/syntesys-logo.svg"
             alt="Syntesys"

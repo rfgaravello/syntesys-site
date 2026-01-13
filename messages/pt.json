@@ -165,7 +165,17 @@
           "link": "mailto:contato@syntesys.com.br"
         }
       },
-      "note": "Atendimento consultivo, direto com o especialista e sem intermediários."
+        "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "submit": "Enviar mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    },
+      "note": "Atendimento consultivo, direto com o especialista e sem intermediários.",
+      "locale": "pt"
     },
     "footer": {
       "copyright": "© {year} Syntesys. Todos os direitos reservados."

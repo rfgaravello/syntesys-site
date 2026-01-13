@@ -45,14 +45,16 @@ export default function ServiceCard({
   const isPortuguese = locale.startsWith("pt")
   const isMentoria = href.includes("mentoria")
 
-  // 🔒 Esconde Mentoria fora do PT
   if (isMentoria && !isPortuguese) {
     return null
   }
 
+  // 🔑 PONTO CRÍTICO: prefixar locale
+  const localizedHref = `/${locale}${href}`
+
   return (
     <Link
-      href={href}
+      href={localizedHref}
       className="
         group relative overflow-hidden rounded-2xl
         border border-white/10

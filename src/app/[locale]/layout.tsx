@@ -42,6 +42,16 @@ export default async function LocaleLayout({
             gtag('config', 'G-ZHWMEWNL3C');
           `}
         </Script>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-ZHWMEWNL3C" strategy="afterInteractive" />
+        <Script id="ga4" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZHWMEWNL3C', { page_path: window.location.pathname });
+          `}
+        </Script>
+
       </head>
 
       <body>

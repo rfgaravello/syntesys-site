@@ -71,7 +71,7 @@ export default function ServicesPage() {
     <section className="max-w-7xl mx-auto px-6 py-20 space-y-12">
       <Breadcrumb
         items={[
-          { label: t("breadcrumb.home"), href: "/" },
+          { label: t("breadcrumb.home"), href: `/${locale}` },
           { label: t("breadcrumb.services") },
         ]}
       />
