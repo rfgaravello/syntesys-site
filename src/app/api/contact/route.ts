@@ -111,15 +111,21 @@ const isPT = safeLocale === "pt"
     }
 
     const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT),
-      secure: Number(process.env.SMTP_PORT) === 465,
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    })
-
+        host: process.env.SMTP_HOST!,
+        port: Number(process.env.SMTP_PORT),
+        secure: Number(process.env.SMTP_PORT) === 465,
+        auth: {
+          user: process.env.SMTP_USER!,
+          pass: process.env.SMTP_PASS!,
+        },
+      })
+      
+      console.log("RAW LOCALE:", locale)
+      console.log("SAFE LOCALE:", safeLocale)
+      console.log("SMTP_HOST:", process.env.SMTP_HOST)
+  console.log("SMTP_PORT:", process.env.SMTP_PORT)
+  console.log("SMTP_USER:", process.env.SMTP_USER)
+  console.log("SMTP_PASS:", process.env.SMTP_PASS ? "OK" : "MISSING")
     // Email para VOCÊ (admin)
     await transporter.sendMail({
       from: `"Site Syntesys" <${process.env.SMTP_FROM}>`,
@@ -149,12 +155,7 @@ const isPT = safeLocale === "pt"
         locale: safeLocale,
       }),
     })
-    console.log("RAW LOCALE:", locale)
-    console.log("SAFE LOCALE:", safeLocale)
-    console.log("SMTP_HOST:", process.env.SMTP_HOST)
-console.log("SMTP_PORT:", process.env.SMTP_PORT)
-console.log("SMTP_USER:", process.env.SMTP_USER)
-console.log("SMTP_PASS:", process.env.SMTP_PASS ? "OK" : "MISSING")
+  
     return NextResponse.json({ success: true })
   } catch (error) {
     console.error(error)
