@@ -31,31 +31,28 @@ interface ServicePageProps {
 
 export default function ServicePage({ content }: ServicePageProps) {
   return (
-    <div className="space-y-16 md:space-y-20">
-
+    <div className="max-w-7xl mx-auto px-6 space-y-16 md:space-y-20">
       {/* HERO */}
       <header className="space-y-6 md:space-y-8">
-
         {content.heroImage && (
-          <div className="object-cover object-center relative w-full rounded-3xl border border-white/10 overflow-hidden
-          h-[220px] sm:h-[320px] md:h-[420px] bg-[#050b1a]
-        ">
-          <Image
-            src={content.heroImage}
-            alt={content.title}
-            fill
-            priority
-            unoptimized
-            className="object-contain"
-          />
-        </div>
+          <div className="relative w-full rounded-3xl  border-white/10 overflow-hidden
+            h-[220px] sm:h-[320px] md:h-[420px] bg-[#050b1a]">
+            <Image
+              src={content.heroImage}
+              alt={content.title}
+              fill
+              priority
+              unoptimized
+              className="img-hero object-contain"
+            />
+          </div>
         )}
 
-        <div className="space-y-4">
+        <div className="space-y-4 max-w-4xl">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
             {content.title}
           </h1>
-          <p className="text-base sm:text-lg text-slate-400 max-w-3xl">
+          <p className="text-base sm:text-lg text-slate-400">
             {content.subtitle}
           </p>
         </div>
@@ -68,7 +65,7 @@ export default function ServicePage({ content }: ServicePageProps) {
             key={index}
             className="
               grid grid-cols-1 md:grid-cols-2
-              gap-8 md:gap-10
+              gap-10 md:gap-14
               items-center
             "
           >
@@ -118,24 +115,25 @@ export default function ServicePage({ content }: ServicePageProps) {
 
             {/* Imagem */}
             {section.image && (
-             <div
-             className="
-               relative w-full
-               rounded-2xl
-               border border-white/10
-               overflow-hidden
-               h-[220px] sm:h-[300px] md:h-[360px]
-               bg-white
-             "
-           >
-             <Image
-               src={section.image}
-               alt={section.title}
-               fill
-               unoptimized
-               className="object-contain"
-             />
-           </div>
+              <div
+              className="
+                relative w-full
+                h-[240px] sm:h-[300px] md:h-[360px]
+                rounded-2xl
+                border border-white/10
+                bg-white
+                flex items-center justify-center
+                overflow-hidden
+              "
+            >
+              <Image
+                src={section.image}
+                alt={section.title}
+                fill
+                unoptimized
+                className="object-contain p-6"
+              />
+            </div>
            
             )}
           </section>

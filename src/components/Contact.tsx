@@ -1,7 +1,12 @@
+'use client'
+
 import Link from "next/link"
 import { Mail, MessageCircle } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export default function Contact() {
+  const t = useTranslations('contact')
+
   return (
     <section
       id="contact"
@@ -12,12 +17,11 @@ export default function Contact() {
         {/* Headline */}
         <div className="space-y-5">
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Vamos falar sobre o seu desafio?
+            {t('title')}
           </h2>
 
           <p className="text-lg text-slate-400 leading-relaxed">
-            Se você busca apoio estratégico em tecnologia, projetos de TI,
-            cloud ou transformação digital, a Syntesys pode ajudar.
+            {t('subtitle')}
           </p>
         </div>
 
@@ -26,7 +30,7 @@ export default function Contact() {
 
           {/* WhatsApp (primário) */}
           <Link
-            href="https://wa.me/5519996210076"
+            href={t('cta.whatsapp.link')}
             target="_blank"
             className="
               inline-flex items-center gap-3
@@ -37,12 +41,12 @@ export default function Contact() {
             "
           >
             <MessageCircle size={22} />
-            Conversar no WhatsApp
+            {t('cta.whatsapp.text')}
           </Link>
 
           {/* Email (secundário) */}
           <Link
-            href="mailto:contato@syntesys.com.br"
+            href={t('cta.email.link')}
             className="
               inline-flex items-center gap-3
               rounded-xl border border-white/20
@@ -51,13 +55,13 @@ export default function Contact() {
             "
           >
             <Mail size={20} />
-            contato@syntesys.com.br
+            {t('cta.email.text')}
           </Link>
         </div>
 
         {/* Micro-copy de confiança */}
         <p className="text-sm text-slate-500">
-          Atendimento consultivo, direto com o especialista e sem intermediários.
+          {t('note')}
         </p>
       </div>
     </section>

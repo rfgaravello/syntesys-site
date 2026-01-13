@@ -1,59 +1,32 @@
-export const transformacaoDigital = {
-    title: "Transformação Digital para Negócios",
-    subtitle:
-      "Ajudamos empresas a evoluírem seus modelos de negócio por meio da tecnologia, inovação e automação, gerando eficiência, competitividade e crescimento sustentável.",
-  
+import { ServiceContent } from "../../components/ServicePage"
+import { useTranslations } from "next-intl"
+
+export function getTransformacaoDigitalContent(t: ReturnType<typeof useTranslations>): ServiceContent {
+  return {
+    title: t("service.transformacao.title"),
+    subtitle: t("service.transformacao.subtitle"),
+
     sections: [
       {
-        title: "Diagnóstico Digital",
-        items: [
-          "Análise do modelo de negócio atual",
-          "Mapeamento de processos e gargalos",
-          "Avaliação de maturidade digital",
-          "Identificação de oportunidades de inovação",
-          "Roadmap estratégico de transformação",
-        ],
+        title: t("service.transformacao.sections.diagnostico.title"),
+        items: t.raw("service.transformacao.sections.diagnostico.items"),
       },
       {
-        title: "Redesenho de Processos",
-        items: [
-          "Otimização e digitalização de processos",
-          "Eliminação de atividades manuais e redundantes",
-          "Integração entre sistemas e áreas",
-          "Adoção de boas práticas e metodologias ágeis",
-          "Melhoria contínua orientada a dados",
-        ],
+        title: t("service.transformacao.sections.processos.title"),
+        items: t.raw("service.transformacao.sections.processos.items"),
       },
       {
-        title: "Tecnologia como Habilitadora",
-        items: [
-          "Implantação de plataformas digitais",
-          "Soluções cloud e sistemas integrados",
-          "Automação de fluxos de trabalho",
-          "Uso estratégico de dados e analytics",
-          "Escalabilidade e sustentabilidade tecnológica",
-        ],
+        title: t("service.transformacao.sections.tecnologia.title"),
+        items: t.raw("service.transformacao.sections.tecnologia.items"),
       },
       {
-        title: "Gestão da Mudança",
-        items: [
-          "Engajamento das equipes",
-          "Capacitação e treinamento",
-          "Comunicação estruturada da transformação",
-          "Acompanhamento da adoção tecnológica",
-          "Redução de riscos organizacionais",
-        ],
+        title: t("service.transformacao.sections.mudanca.title"),
+        items: t.raw("service.transformacao.sections.mudanca.items"),
       },
       {
-        title: "Resultados e Performance",
-        items: [
-          "Definição de indicadores (KPIs)",
-          "Monitoramento de resultados",
-          "Ganho de eficiência operacional",
-          "Redução de custos e retrabalho",
-          "Aumento da competitividade no mercado",
-        ],
+        title: t("service.transformacao.sections.resultados.title"),
+        items: t.raw("service.transformacao.sections.resultados.items"),
       },
     ],
   }
-  
+}

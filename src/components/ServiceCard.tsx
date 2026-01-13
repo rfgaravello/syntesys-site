@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import { useTranslations, useLocale } from "next-intl"
 import {
   Cpu,
   BarChart2,
@@ -38,6 +39,17 @@ export default function ServiceCard({
   href,
   icon,
 }: ServiceCardProps) {
+  const t = useTranslations()
+  const locale = useLocale()
+
+  const isPortuguese = locale.startsWith("pt")
+  const isMentoria = href.includes("mentoria")
+
+  // 🔒 Esconde Mentoria fora do PT
+  if (isMentoria && !isPortuguese) {
+    return null
+  }
+
   return (
     <Link
       href={href}
@@ -63,7 +75,7 @@ export default function ServiceCard({
       </p>
 
       <span className="text-sm text-cyan-400 font-medium group-hover:underline">
-        Saiba mais →
+        {t("common.learnMore")} →
       </span>
     </Link>
   )

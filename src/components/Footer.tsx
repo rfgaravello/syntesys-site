@@ -1,12 +1,23 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
+import { useTranslations } from "next-intl"
+import LanguageSwitcher from "./LanguageSwitcher"
 
 export default function Footer() {
-  return (
-    <footer className="border-t border-white/10 py-12">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+  const t = useTranslations("footer")
+  const year = new Date().getFullYear()
 
-        <Link href="/">
+  return (
+    <footer className="border-t border-white/10 py-12 bg-[#020617]">
+      <div
+        className="max-w-7xl mx-auto px-6
+        flex flex-col md:flex-row
+        items-center justify-between gap-6"
+      >
+        {/* Logo */}
+        <Link href="/" className="shrink-0">
           <Image
             src="/images/logo/syntesys-logo.svg"
             alt="Syntesys"
@@ -16,9 +27,15 @@ export default function Footer() {
           />
         </Link>
 
+        {/* Texto */}
         <p className="text-sm text-slate-500 text-center">
-          © {new Date().getFullYear()} Syntesys. Todos os direitos reservados.
+          {t("copyright", { year })}
         </p>
+
+        {/* Language Switcher */}
+        <div className="opacity-80 hover:opacity-100 transition">
+          <LanguageSwitcher />
+        </div>
       </div>
     </footer>
   )

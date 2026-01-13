@@ -1,0 +1,675 @@
+{
+  "common": {
+    "learnMore": "Learn more"
+  },
+  "header": {
+    "logo": {
+      "alt": "Syntesys - Technology Consulting",
+      "tagline": "",
+      "title": "Technology Consulting"
+    },
+    "menu": {
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "services": {
+      "items": {
+        "techConsulting": "Technology Advisory",
+        "pmo": "Project Management (PMO)",
+        "infrastructure": "IT Infrastructure",
+        "cloud": "Cloud & DevOps",
+        "digitalTransformation": "Digital Transformation",
+        "automation": "Process Automation",
+        "dev": "Web & Mobile Development",
+        "document": "Digital Document Solutions",
+        "mentoring": "Mentoring & Emotional Well-being at Work"
+      }
+    }
+  },
+
+  "home": {
+    "hero": {
+      "title": "Technology that drives strategic decisions",
+      "subtitle": "Specialized consulting for modern businesses",
+      "imageAlt": "Technology and strategy",
+      "cta": {
+        "text": "Talk to a specialist",
+        "link": "https://wa.me/5519996210076"
+      }
+    }
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "services": "Services"
+  },
+  "services": {
+    "title": "Technology solutions to scale businesses securely",
+      "subtitle": "From strategy to execution, we connect technology, processes and people to accelerate results with governance and predictability.",
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services"
+    },
+    
+
+    "assessoria": {
+      "title": "Technology Advisory",
+      "description": "Specialized consulting to optimize your technology strategy."
+    },
+    "pmo": {
+      "title": "Project Management (PMO)",
+      "description": "Efficient planning and tracking of IT projects."
+    },
+    "infra": {
+      "title": "IT Infrastructure",
+      "description": "Support and maintenance for your technology infrastructure."
+    },
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "description": "Cloud services and operations automation."
+    },
+    "digital": {
+      "title": "Digital Transformation",
+      "description": "Digitize processes and modernize your business."
+    },
+    "automation": {
+      "title": "Process Automation",
+      "description": "Reduce costs and increase efficiency through automation."
+    },
+    "web": {
+      "title": "Web & Mobile Development",
+      "description": "Modern, scalable web and mobile applications."
+    },
+    "documental": {
+      "title": "Digital Document Solutions",
+      "description": "Professional qualification for electronic content management."
+    },
+    "mentoria": {
+      "title": "Mentoring & Emotional Wellbeing",
+      "description": "Mentoring and support for IT leaders and teams."
+    },
+    "heading": {
+      "title": "Technology solutions to scale businesses securely",
+      "subtitle": "From strategy to execution, we connect technology, processes and people to accelerate results with governance and predictability."
+    },
+    "explore": "Explore service",
+    "cta": {
+      "text": "Talk to a specialist",
+      "link": "https://wa.me/5519996210076"
+    },
+    "items": {
+      "tech": {
+        "title": "Technology Advisory",
+        "description": "Strategic support in technology, architecture and innovation decisions."
+      },
+      "pmo": {
+        "title": "Project Management (PMO)",
+        "description": "Planning, control and execution of IT projects with focus on results."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Modern, scalable and secure infrastructure with automation and cloud best practices."
+      },
+      "automation": {
+        "title": "Process Automation",
+        "description": "Operational cost reduction and efficiency gains through intelligent automation."
+      },
+      "dev": {
+        "title": "Web & Mobile Development",
+        "description": "Modern, high-performance applications focused on user experience."
+      },
+      "document": {
+        "title": "Document Solutions for Business Areas",
+        "description": "Digitization and management of physical and electronic documents using ECM systems."
+      },
+      "infrastructure": {
+        "title": "IT Infrastructure",
+        "description": "Design, implementation and management of secure, scalable IT infrastructures."
+      },
+      "digital": {
+        "title": "Digital Transformation",
+        "description": "Business evolution through technology, innovation and automation."
+      },
+      "mentoring": {
+        "title": "Emotional Well-being at Work",
+        "description": "Mentoring focused on professional development, emotional balance and performance."
+      }
+    }
+  },
+  "about": {
+    "title": "About Syntesys",
+    "intro": "Syntesys is a technology consulting firm focused on turning strategy into execution by aligning technology, processes, and governance to deliver sustainable and measurable results.",
+    "mission": "We work closely with business leaders and organizations that need to make informed decisions, structure IT initiatives, and drive digital transformation with technical clarity, business alignment, and control.",
+    "highlights": [
+      "Hands-on experience in IT, cloud, and digital transformation projects",
+      "Strategic perspective combined with high-level technical execution",
+      "Close, transparent, and results-driven engagement"
+    ],
+    "signature": {
+      "prefix": "Founded by",
+      "bio": "a specialist in IT projects, cloud, and technology governance.",
+      "experience": "With over 25 years of experience, Rafael has led digital transformation, technology modernization, and IT governance initiatives across organizations such as Unicamp, JBS, Nextel, Rodonaves, MetLife, Grupo SER Educacional, Unimed Recife, Tecfy, and Tecnoset. He holds internationally recognized certifications including ITIL, PMP (PMI), ACP-PMI (Agile), and Scrum, and has a strong track record leading technical teams focused on consistent results.",
+      "linkedinText": "View Rafael D. Garavello on LinkedIn",
+      "linkedinUrl": "https://www.linkedin.com/in/rafaelgaravello/"
+    },
+    "imageAlt": "Teamwork, technology and innovation"
+  },
+  "contact": {
+    "title": "Let’s talk about your challenge",
+    "subtitle": "If you’re looking for strategic support in technology, IT projects, cloud or digital transformation, Syntesys can help.",
+    "cta": {
+      "whatsapp": {
+        "text": "Chat on WhatsApp",
+        "link": "https://wa.me/5519996210076"
+      },
+      "email": {
+        "text": "contato@syntesys.com.br",
+        "link": "mailto:contato@syntesys.com.br"
+      }
+    },
+    "note": "Consultative service, direct access to the specialist, no intermediaries."
+  },
+  "footer": {
+    "copyright": "© {year} Syntesys. All rights reserved."
+  },
+ 
+  "service": {
+    "transformacao": {
+      "title": "Digital Transformation for Businesses",
+      "subtitle": "We help companies evolve their business models through technology, innovation, and automation, driving efficiency, competitiveness, and sustainable growth.",
+
+      "sections": {
+        "diagnostico": {
+          "title": "Digital Assessment",
+          "items": [
+            "Analysis of the current business model",
+            "Process and bottleneck mapping",
+            "Digital maturity assessment",
+            "Identification of innovation opportunities",
+            "Strategic transformation roadmap"
+          ]
+        },
+        "processos": {
+          "title": "Process Redesign",
+          "items": [
+            "Process optimization and digitalization",
+            "Elimination of manual and redundant activities",
+            "Integration between systems and departments",
+            "Adoption of best practices and agile methodologies",
+            "Data-driven continuous improvement"
+          ]
+        },
+        "tecnologia": {
+          "title": "Technology as an Enabler",
+          "items": [
+            "Implementation of digital platforms",
+            "Cloud solutions and integrated systems",
+            "Workflow automation",
+            "Strategic use of data and analytics",
+            "Scalable and sustainable technology foundations"
+          ]
+        },
+        "mudanca": {
+          "title": "Change Management",
+          "items": [
+            "Team engagement",
+            "Training and capability building",
+            "Structured communication of transformation",
+            "Monitoring of technology adoption",
+            "Reduction of organizational risks"
+          ]
+        },
+        "resultados": {
+          "title": "Results and Performance",
+          "items": [
+            "Definition of KPIs",
+            "Performance monitoring",
+            "Operational efficiency gains",
+            "Cost and rework reduction",
+            "Increased market competitiveness"
+          ]
+        }
+      }
+    },
+    "documental": {
+      "title": "Document Management Solutions (ECM / DMS & Digital Workflow)",
+      "subtitle": "We transform physical and digital documents into strategic information by structuring secure repositories, intelligent workflows, and document governance for business areas.",
+
+      "sections": {
+        "ecm": {
+          "title": "Electronic Document Management (ECM / DMS)",
+          "items": [
+            "Implementation and evolution of ECM and DMS platforms",
+            "Centralization and organization of corporate documents",
+            "Version control, permissions, and auditing",
+            "Compliance with internal policies and legal requirements",
+            "Risk reduction and increased traceability"
+          ]
+        },
+        "scanning": {
+          "title": "Physical Document Digitization",
+          "items": [
+            "Physical archive mapping",
+            "Definition of digitization standards",
+            "Intelligent classification and indexing",
+            "OCR for data extraction and searchable text",
+            "Secure paper elimination with legal validity"
+          ]
+        },
+        "workflow": {
+          "title": "Workflow Analysis and Design",
+          "items": [
+            "Assessment of current document processes (AS-IS)",
+            "Redesign of digital workflows (TO-BE)",
+            "Automation of approvals and validations",
+            "Integration between departments and systems",
+            "Increased productivity and reduced bottlenecks"
+          ]
+        },
+        "tools": {
+          "title": "Supported Tools and Platforms",
+          "items": [
+            "OnBase (Hyland)",
+            "Perceptive Content (ImageNow)",
+            "FileDirector",
+            "SharePoint and Microsoft solutions",
+            "Other ECM and DMS platforms"
+          ]
+        },
+        "governance": {
+          "title": "Governance, Security, and Compliance",
+          "items": [
+            "Document retention policy definition",
+            "Access and user profile management",
+            "Audit trails and change history",
+            "LGPD and regulatory compliance",
+            "Corporate information protection"
+          ]
+        },
+        "benefits": {
+          "title": "Business Benefits",
+          "items": [
+            "Operational cost reduction",
+            "Faster access and use of information",
+            "Less dependency on paper and physical archives",
+            "Increased process efficiency",
+            "Decision-making based on reliable information"
+          ]
+        }
+      },
+
+      "cta": {
+        "title": "Is your document management ready to scale?",
+        "subtitle": "Let’s structure processes, technology, and governance to turn documents into strategic business assets.",
+        "button": "Talk to a specialist"
+      }
+    },
+    "infraestrutura": {
+      "title": "IT Infrastructure",
+      "subtitle": "We design, implement, and sustain robust, secure, and scalable IT infrastructures, ensuring availability, performance, and governance.",
+
+      "sections": {
+        "corporate": {
+          "title": "Corporate Infrastructure",
+          "items": [
+            "On-premises, hybrid, and cloud environments",
+            "Servers, storage, and virtualization",
+            "High availability and business continuity",
+            "Standardization and technical documentation"
+          ]
+        },
+        "virtualization": {
+          "title": "Virtualization and Containers",
+          "items": [
+            "VMware, Hyper-V, and KVM",
+            "Docker and Kubernetes",
+            "Optimization of computing resources",
+            "Isolated and secure environments"
+          ]
+        },
+        "network": {
+          "title": "Networks and Connectivity",
+          "items": [
+            "Secure and scalable topologies",
+            "VPNs, firewalls, and load balancers",
+            "Network segmentation and traffic control",
+            "Integration between sites and cloud"
+          ]
+        },
+        "backup": {
+          "title": "Backup, Disaster Recovery, and High Availability",
+          "items": [
+            "Backup and restore strategies",
+            "Disaster Recovery plans",
+            "Periodic recovery testing",
+            "Operational risk reduction"
+          ]
+        },
+        "monitoring": {
+          "title": "Monitoring and Support",
+          "items": [
+            "Server and service monitoring",
+            "Proactive failure identification",
+            "Specialized technical support",
+            "Increased environment stability"
+          ]
+        }
+      },
+
+      "cta": {
+        "title": "Is your infrastructure ready for the future?",
+        "subtitle": "Let’s assess, optimize, and evolve your IT environment with security and strategic vision.",
+        "button": "Talk to a specialist"
+      }
+    },
+    "gestaoprojetos": {
+      "title": "IT Project Management (PMO)",
+      "subtitle": "Governance, predictability, and control for technology projects, ensuring strategic alignment, operational efficiency, and results delivery.",
+
+      "sections": {
+        "pmo": {
+          "title": "PMO Structure and Operations",
+          "items": [
+            "Implementation of strategic or operational PMO",
+            "Definition of governance, processes, and rituals",
+            "Standardization of methodologies and templates",
+            "Project portfolio management"
+          ]
+        },
+        "planning": {
+          "title": "Project Planning and Control",
+          "items": [
+            "Scope, schedule, and cost planning",
+            "Definition of timelines and milestones",
+            "Financial and budget control",
+            "Dependency and priority management"
+          ]
+        },
+        "methods": {
+          "title": "Traditional, Agile, and Hybrid Methodologies",
+          "items": [
+            "PMBOK, Prince2, and traditional models",
+            "Scrum, Kanban, and agile frameworks",
+            "Hybrid models adapted to business needs",
+            "Adoption according to organizational maturity"
+          ]
+        },
+        "risk": {
+          "title": "Risk, Change, and Communication Management",
+          "items": [
+            "Risk identification and mitigation",
+            "Structured change management",
+            "Clear communication with stakeholders",
+            "Executive reports and status updates"
+          ]
+        },
+        "dashboard": {
+          "title": "Dashboards and Executive View",
+          "items": [
+            "Performance indicators (KPIs)",
+            "Executive monitoring dashboards",
+            "Visibility into timelines, costs, and risks",
+            "Support for strategic decision-making"
+          ]
+        }
+      },
+
+      "cta": {
+        "title": "Are your projects under control?",
+        "subtitle": "We support your company in structuring, governing, and executing IT projects with predictability and results focus.",
+        "button": "Talk to a specialist"
+      }
+    },
+    "webmobile": {
+      "title": "Web & Mobile Development",
+      "subtitle": "We build modern, scalable web and mobile applications focused on delivering the best user experience and aligned with business goals.",
+
+      "sections": {
+        "frontend": {
+          "title": "Front-end Development",
+          "items": [
+            "Modern and responsive interfaces",
+            "User experience (UX/UI)",
+            "Fast and accessible applications",
+            "Use of modern frameworks like React and Next.js"
+          ]
+        },
+        "backend": {
+          "title": "Back-end Development",
+          "items": [
+            "Scalable and secure APIs",
+            "Integration with systems and databases",
+            "Service-oriented architecture",
+            "High performance and reliability"
+          ]
+        },
+        "mobile": {
+          "title": "Mobile Applications",
+          "items": [
+            "Android and iOS development",
+            "Hybrid and native applications",
+            "Integration with APIs and cloud services",
+            "Focus on performance and usability"
+          ]
+        },
+        "architecture": {
+          "title": "Architecture and Scalability",
+          "items": [
+            "Modern and decoupled architectures",
+            "Prepared for growth and high demand",
+            "Security best practices",
+            "Cloud-ready infrastructure"
+          ]
+        },
+        "quality": {
+          "title": "Quality and Governance",
+          "items": [
+            "Automated testing",
+            "Version control and CI/CD",
+            "Development best practices",
+            "Maintainability and continuous evolution"
+          ]
+        }
+      },
+
+      "cta": {
+        "title": "Ready to turn your idea into a product?",
+        "subtitle": "We develop custom digital solutions to scale your business securely and efficiently.",
+        "button": "Talk to a specialist"
+      }
+    },
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "subtitle": "We design, implement, and operate modern, secure, and scalable cloud environments, applying DevOps practices to accelerate delivery and reduce operational risks.",
+
+      "sections": {
+        "architecture": {
+          "title": "Modern Cloud Architecture",
+          "items": [
+            "Cloud architecture based on AWS, Azure, or GCP",
+            "Highly available and scalable environments",
+            "Cost reduction through efficient resource usage",
+            "Security by design from the architecture phase"
+          ]
+        },
+        "iac": {
+          "title": "Infrastructure as Code (IaC)",
+          "items": [
+            "Automated provisioning with Terraform",
+            "Versioned and auditable environments",
+            "Standardization across dev, staging, and production",
+            "Fewer human errors and greater predictability"
+          ]
+        },
+        "cicd": {
+          "title": "CI/CD Pipelines",
+          "items": [
+            "Automated build, test, and deploy",
+            "Integration with GitHub Actions, GitLab CI, or Azure DevOps",
+            "Continuous deployment with automatic rollback",
+            "Faster and more secure deliveries"
+          ]
+        },
+        "monitoring": {
+          "title": "Observability and Monitoring",
+          "items": [
+            "Infrastructure and application monitoring",
+            "Real-time dashboards",
+            "Proactive incident alerts",
+            "Use of tools such as Grafana, Prometheus, and CloudWatch"
+          ]
+        },
+        "security": {
+          "title": "Security and Governance",
+          "items": [
+            "Identity and access management (IAM)",
+            "Security and compliance policies",
+            "Cloud environment auditing",
+            "Best practices aligned with ISO and market frameworks"
+          ]
+        }
+      },
+
+      "cta": {
+        "title": "Ready to evolve your infrastructure?",
+        "subtitle": "Let’s design a secure, scalable Cloud & DevOps strategy aligned with your business goals.",
+        "button": "Talk to a specialist"
+      }
+    },
+    "automacao": {
+      "title": "Process Automation",
+      "subtitle": "We automate operational and business processes to reduce costs, eliminate rework, and increase efficiency using modern technology, integrations, and data intelligence.",
+
+      "sections": {
+        "mapeamento": {
+          "title": "Process Mapping and Analysis",
+          "items": [
+            "Detailed assessment of current processes (AS-IS)",
+            "Identification of bottlenecks, failures, and rework",
+            "Technical and financial feasibility analysis",
+            "Definition of optimized future processes (TO-BE)"
+          ]
+        },
+        "workflows": {
+          "title": "Workflow and Process Automation",
+          "items": [
+            "Creation of automated workflows",
+            "Automation of approvals and repetitive tasks",
+            "Integration between systems and platforms",
+            "End-to-end process orchestration"
+          ]
+        },
+        "apis": {
+          "title": "Integrations and APIs",
+          "items": [
+            "Integration between ERPs, CRMs, and internal systems",
+            "Creation and consumption of REST APIs",
+            "Event-driven automation",
+            "Data synchronization and consistency"
+          ]
+        },
+        "rpa": {
+          "title": "RPA and Intelligent Automation",
+          "items": [
+            "Robotic Process Automation (RPA)",
+            "Automation of manual tasks in legacy systems",
+            "Use of AI for classification and simple decisions",
+            "Reduction of operational errors"
+          ]
+        },
+        "monitoramento": {
+          "title": "Monitoring and Continuous Improvement",
+          "items": [
+            "Process performance monitoring",
+            "Efficiency metrics and KPIs",
+            "Continuous adjustments and optimizations",
+            "Gradual evolution of operational maturity"
+          ]
+        }
+      },
+
+      "cta": {
+        "title": "Are your processes helping or slowing down growth?",
+        "subtitle": "Well-applied automation transforms operations, reduces costs, and frees time for what really matters.",
+        "button": "I want to automate my processes"
+      }
+    },
+    "assessoria": {
+      "title": "Technology Advisory",
+      "subtitle": "We support companies in making strategic technology decisions by connecting business, architecture, processes, and innovation to deliver real and sustainable results.",
+
+      "sections": {
+        "diagnostico": {
+          "title": "IT Assessment and Strategy",
+          "items": [
+            "Assessment of the current technology landscape",
+            "Identification of bottlenecks, risks, and opportunities",
+            "Alignment between IT and business objectives",
+            "Short, medium, and long-term technology roadmap"
+          ]
+        },
+        "arquitetura": {
+          "title": "Solution Architecture",
+          "items": [
+            "Definition of scalable and secure architectures",
+            "Selection of technologies suited to the business context",
+            "Modernization of legacy systems",
+            "Cloud, hybrid, and on-premises architectures"
+          ]
+        },
+        "governanca": {
+          "title": "Governance and Best Practices",
+          "items": [
+            "Definition of IT standards and policies",
+            "Risk management and compliance",
+            "Adoption of best practices (ITIL, COBIT, DevOps)",
+            "Process structuring and documentation"
+          ]
+        },
+        "decisao": {
+          "title": "Decision-Making Support",
+          "items": [
+            "Technical support for leaders and executives",
+            "Technical and financial feasibility analysis",
+            "Support for RFPs and vendor selection",
+            "Evaluation of solutions and platforms"
+          ]
+        },
+        "inovacao": {
+          "title": "Innovation and Digital Transformation",
+          "items": [
+            "Identification of innovation opportunities",
+            "Adoption of new technologies and models",
+            "Process automation and digitalization",
+            "Continuous evolution of digital maturity"
+          ]
+        }
+      },
+
+      "cta": {
+        "title": "Is your technology aligned with your business?",
+        "subtitle": "Rely on an independent and experienced advisory to guide your strategic IT decisions.",
+        "button": "Talk to a specialist"
+      }
+    },
+    
+    
+      "title": "Technology Advisory",
+      "intro": "We support companies and leaders in making strategic technology decisions.",
+      "description": "Our technology advisory services range from architecture definition to aligning technology, business and governance, ensuring safer, more efficient and sustainable decisions.",
+      "benefits": {
+        "title": "What you gain from our advisory",
+        "items": [
+          "Technology decisions aligned with business strategy",
+          "Reduction of technical and financial risks",
+          "Independent and specialized external perspective",
+          "Ongoing support in architecture, vendors and innovation"
+        ]
+      },
+      "approach": {
+        "title": "Our approach",
+        "text": "We work closely with our clients, understanding their business context, technical challenges and strategic goals to propose practical and viable solutions."
+      }
+    }
+  }
+
