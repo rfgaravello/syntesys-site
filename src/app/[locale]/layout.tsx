@@ -26,7 +26,7 @@ export default async function LocaleLayout({
         {/* 🔹 Google Search Console */}
         <meta
           name="google-site-verification"
-          content="GOOGLE_VERIFICATION_CODE"
+          content="VSRVeiNhK42EysXN3809lJ7lKAM1TjVml9DbsXQ7YJc"
         />
 
         {/* 🔹 Google Analytics 4 */}
