@@ -2,10 +2,16 @@ import { NextIntlClientProvider } from 'next-intl'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import WhatsAppFloat from "../../components/WhatsAppFloat"
-import LanguageSwitcher from '../../components/LanguageSwitcher'
+import Script from 'next/script'
 import './globals.css'
 
-export default async function LocaleLayout({ children, params }) {
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode
+  params: { locale: string }
+}) {
   let messages = {}
 
   try {
@@ -16,14 +22,34 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={params.locale}>
+      <head>
+        {/* 🔹 Google Search Console */}
+        <meta
+          name="google-site-verification"
+          content="GOOGLE_VERIFICATION_CODE"
+        />
+
+        {/* 🔹 Google Analytics 4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZHWMEWNL3C');
+          `}
+        </Script>
+      </head>
+
       <body>
         <NextIntlClientProvider locale={params.locale} messages={messages}>
           <Header />
-          
           {children}
           <Footer />
           <WhatsAppFloat />
-          
         </NextIntlClientProvider>
       </body>
     </html>
