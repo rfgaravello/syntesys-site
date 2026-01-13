@@ -128,9 +128,9 @@ export default function Header() {
             )}
           </div>
 
-          <Link href="/#about">{t('menu.about')}</Link>
+          <Link href="/about">{t('menu.about')}</Link>
 
-          <Link href="/#contact" className="text-primary">
+          <Link href="/contact" className="text-primary">
             {t('menu.contact')}
           </Link>
         </nav>
@@ -178,9 +178,9 @@ export default function Header() {
             </div>
           )}
 
-          <Link href="/#about">{t('menu.about')}</Link>
+          <Link href="/about">{t('menu.about')}</Link>
 
-          <Link href="/#contact" className="text-primary">
+          <Link href="/contact" className="text-primary">
             {t('menu.contact')}
           </Link>
 
