@@ -1,4 +1,56 @@
 {
+  "automacao": {
+    "meta": {
+      "title": "Automação de Processos | Syntesys",
+      "description": "Automação de processos, cloud e transformação digital para empresas."
+    },
+    "hero": {
+      "title": "Automação de processos e transformação digital",
+      "subtitle": "Reduza custos, elimine tarefas manuais e escale sua operação com tecnologia moderna.",
+      "ctaPrimary": "Falar com especialista",
+      "ctaSecondary": "Ver soluções"
+    },
+    "problems": {
+      "title": "Sua empresa enfrenta algum desses desafios?",
+      "items": [
+        "Processos manuais lentos e sujeitos a erro",
+        "Sistemas que não se integram",
+        "Alto custo operacional em TI",
+        "Falta de visibilidade e controle",
+        "Equipes presas a tarefas repetitivas",
+        "Dificuldade para escalar operações"
+      ]
+    },
+    "solutions": {
+      "title": "Soluções da Syntesys",
+      "automation": {
+        "title": "Automação de Processos",
+        "description": "Automatizamos fluxos administrativos e operacionais sob medida."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Infraestrutura escalável, segura e preparada para crescimento."
+      },
+      "digital": {
+        "title": "Transformação Digital",
+        "description": "Modernização estratégica com foco em resultado."
+      }
+    },
+    "results": {
+      "title": "Resultados que você pode esperar",
+      "items": [
+        "Redução de custos operacionais",
+        "Processos mais rápidos e confiáveis",
+        "Aumento de produtividade",
+        "Base tecnológica pronta para escalar"
+      ]
+    },
+    "final": {
+      "title": "Pronto para modernizar sua operação?",
+      "subtitle": "Descubra como a automação pode impulsionar seu negócio.",
+      "cta": "Agendar conversa"
+    }
+  },
   "common": {
     "learnMore": "Saiba mais"
   },

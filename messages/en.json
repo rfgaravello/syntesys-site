@@ -1,4 +1,57 @@
 {
+  
+    "automacao": {
+      "meta": {
+        "title": "Process Automation | Syntesys",
+        "description": "Process automation, cloud, and digital transformation solutions for businesses."
+      },
+      "hero": {
+        "title": "Process automation and digital transformation",
+        "subtitle": "Reduce costs, eliminate manual tasks, and scale your operations with modern technology.",
+        "ctaPrimary": "Talk to a specialist",
+        "ctaSecondary": "See solutions"
+      },
+      "problems": {
+        "title": "Is your company facing any of these challenges?",
+        "items": [
+          "Slow, manual processes prone to errors",
+          "Systems that don't integrate",
+          "High operational IT costs",
+          "Lack of visibility and control",
+          "Teams stuck with repetitive tasks",
+          "Difficulty scaling operations"
+        ]
+      },
+      "solutions": {
+        "title": "Syntesys Solutions",
+        "automation": {
+          "title": "Process Automation",
+          "description": "We automate administrative and operational flows tailored to your business."
+        },
+        "cloud": {
+          "title": "Cloud & DevOps",
+          "description": "Secure, scalable infrastructure ready for growth with modern DevOps practices."
+        },
+        "digital": {
+          "title": "Digital Transformation",
+          "description": "Strategic modernization focused on results and efficiency."
+        }
+      },
+      "results": {
+        "title": "Results you can expect",
+        "items": [
+          "Reduced operational costs",
+          "Faster, more reliable processes",
+          "Increased productivity",
+          "Technology foundation ready to scale"
+        ]
+      },
+      "final": {
+        "title": "Ready to modernize your operations?",
+        "subtitle": "Discover how automation can boost your business.",
+        "cta": "Schedule a conversation"
+      }
+    },  
   "locale": "en",
   "common": {
     "learnMore": "Learn more"
