@@ -1,4 +1,5 @@
 {
+ 
   "automacao": {
     "meta": {
       "title": "Automação de Processos | Syntesys",
@@ -99,6 +100,12 @@
       "breadcrumb": {
         "home": "Home",
         "services": "Serviços"
+      },
+      "landing": {
+        "automation": {
+          "title": "Automação de Processos (visão completa)",
+          "description": "Veja como a automação pode reduzir custos, eliminar gargalos operacionais e escalar sua empresa com eficiência."
+        }
       },
   
       "assessoria": {

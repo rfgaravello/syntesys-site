@@ -104,7 +104,12 @@
       "home": "Home",
       "services": "Services"
     },
-    
+    "landing": {
+      "automation": {
+        "title": "Process Automation (Full Overview)",
+        "description": "See how automation can reduce costs, eliminate operational bottlenecks, and scale your business efficiently."
+      }
+    },
 
     "assessoria": {
       "title": "Technology Advisory",
