@@ -41,7 +41,7 @@ export default function Services() {
         <div className="relative bg-gradient-to-r from-purple-600 to-blue-500 p-6 rounded-xl text-white flex flex-col justify-between h-full">
   {/* Tag destaque */}
   <span className="absolute top-4 right-4 bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-semibold">
-    Destaque
+  {t("landing.destaque.destaque")}
   </span>
 
             {/* Ícone grande centralizado */}

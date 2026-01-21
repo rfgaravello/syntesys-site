@@ -105,7 +105,11 @@
         "automation": {
           "title": "Automação de Processos (visão completa)",
           "description": "Veja como a automação pode reduzir custos, eliminar gargalos operacionais e escalar sua empresa com eficiência."
-        }
+        },
+         "destaque": {
+          "destaque": "Destaque"
+         }
+       
       },
   
       "assessoria": {
