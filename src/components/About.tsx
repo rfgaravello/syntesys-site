@@ -7,20 +7,23 @@ export default function About() {
   const t = useTranslations('about')
 
   return (
-    <section  id="about" className="py-28 bg-[#030712]">
+    <section id="about" className="py-28 bg-[#030712]">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
         {/* Conteúdo */}
         <div className="space-y-8">
+          {/* Título */}
           <h2 className="text-4xl md:text-5xl font-bold text-white">
             {t('title')}
           </h2>
 
+          {/* Introdução Institucional */}
           <p className="text-lg text-slate-400 leading-relaxed">
             <span className="text-white font-medium">Syntesys</span>{" "}
             {t('intro')}
           </p>
 
+          {/* Missão */}
           <p className="text-lg text-slate-400 leading-relaxed">
             {t('mission')}
           </p>
@@ -35,7 +38,7 @@ export default function About() {
             ))}
           </ul>
 
-          {/* Assinatura */}
+          {/* Founder / Assinatura */}
           <div className="pt-6 text-slate-400 leading-relaxed space-y-4">
             <p>
               {t('signature.prefix')}{" "}
