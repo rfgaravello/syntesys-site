@@ -28,10 +28,12 @@ export default async function AutomacaoPage({ params }: Props) {
             <h1 className="text-4xl font-bold text-white md:text-5xl">
               {t("hero.title")}
             </h1>
-            <p className="mt-6 text-lg text-gray-300">{t("hero.subtitle")}</p>
+
+            <p className="mt-6 text-lg text-gray-300">
+              {t("hero.subtitle")}
+            </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              {/* CTA PRINCIPAL → LINK PARA CONTACT */}
               <Link
                 href={`/${locale}/contact`}
                 className="rounded-xl bg-primary px-6 py-3 font-semibold text-black transition hover:opacity-90 animate-pulse-glow"
@@ -39,7 +41,6 @@ export default async function AutomacaoPage({ params }: Props) {
                 {t("hero.ctaPrimary")}
               </Link>
 
-              {/* CTA SECUNDÁRIO → LINK PARA SERVICES */}
               <Link
                 href={`/${locale}/services`}
                 className="rounded-xl border border-primary px-6 py-3 font-semibold text-primary transition hover:bg-primary hover:text-black"
@@ -54,7 +55,10 @@ export default async function AutomacaoPage({ params }: Props) {
       {/* PROBLEMAS */}
       <section className="bg-surface py-20">
         <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl font-bold text-white">{t("problems.title")}</h2>
+          <h2 className="text-3xl font-bold text-white">
+            {t("problems.title")}
+          </h2>
+
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {t.raw("problems.items").map((item: string) => (
               <div
@@ -71,21 +75,36 @@ export default async function AutomacaoPage({ params }: Props) {
       {/* SOLUÇÕES */}
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl font-bold text-white">{t("solutions.title")}</h2>
+          <h2 className="text-3xl font-bold text-white">
+            {t("solutions.title")}
+          </h2>
+
           <div className="mt-12 grid gap-8 md:grid-cols-3">
             <div className="rounded-2xl bg-surface p-8">
-              <h3 className="text-xl font-semibold text-primary">{t("solutions.automation.title")}</h3>
-              <p className="mt-4 text-gray-300">{t("solutions.automation.description")}</p>
+              <h3 className="text-xl font-semibold text-primary">
+                {t("solutions.automation.title")}
+              </h3>
+              <p className="mt-4 text-gray-300">
+                {t("solutions.automation.description")}
+              </p>
             </div>
 
             <div className="rounded-2xl bg-surface p-8">
-              <h3 className="text-xl font-semibold text-secondary">{t("solutions.cloud.title")}</h3>
-              <p className="mt-4 text-gray-300">{t("solutions.cloud.description")}</p>
+              <h3 className="text-xl font-semibold text-secondary">
+                {t("solutions.cloud.title")}
+              </h3>
+              <p className="mt-4 text-gray-300">
+                {t("solutions.cloud.description")}
+              </p>
             </div>
 
             <div className="rounded-2xl bg-surface p-8">
-              <h3 className="text-xl font-semibold text-accent">{t("solutions.digital.title")}</h3>
-              <p className="mt-4 text-gray-300">{t("solutions.digital.description")}</p>
+              <h3 className="text-xl font-semibold text-accent">
+                {t("solutions.digital.title")}
+              </h3>
+              <p className="mt-4 text-gray-300">
+                {t("solutions.digital.description")}
+              </p>
             </div>
           </div>
         </div>
@@ -94,7 +113,10 @@ export default async function AutomacaoPage({ params }: Props) {
       {/* RESULTADOS */}
       <section className="bg-surface py-20">
         <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl font-bold text-white">{t("results.title")}</h2>
+          <h2 className="text-3xl font-bold text-white">
+            {t("results.title")}
+          </h2>
+
           <ul className="mt-8 grid gap-4 md:grid-cols-2 text-gray-300">
             {t.raw("results.items").map((item: string) => (
               <li key={item}>✔ {item}</li>
@@ -103,11 +125,28 @@ export default async function AutomacaoPage({ params }: Props) {
         </div>
       </section>
 
+      {/* SEO CONTENT (AUTORIDADE PARA GOOGLE) */}
+      <section className="py-20">
+        <div className="mx-auto max-w-4xl px-6 space-y-4 text-gray-300">
+          <h2 className="text-2xl font-bold text-white">
+            {t("seo.title")}
+          </h2>
+
+          <p>{t("seo.paragraph1")}</p>
+          <p>{t("seo.paragraph2")}</p>
+        </div>
+      </section>
+
       {/* CTA FINAL */}
       <section className="py-20">
         <div className="mx-auto max-w-3xl px-6 text-center">
-          <h2 className="text-3xl font-bold text-white">{t("final.title")}</h2>
-          <p className="mt-4 text-gray-300">{t("final.subtitle")}</p>
+          <h2 className="text-3xl font-bold text-white">
+            {t("final.title")}
+          </h2>
+
+          <p className="mt-4 text-gray-300">
+            {t("final.subtitle")}
+          </p>
 
           <Link
             href={`/${locale}/contact`}

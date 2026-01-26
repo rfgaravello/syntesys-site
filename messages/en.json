@@ -1,56 +1,66 @@
 {
+
+  "automacao": {
+    "seo": {
+      "title": "Business Process Automation and Digital Transformation Consulting",
+      "paragraph1": "Syntesys provides specialized consulting in business process automation, digital transformation and cloud computing for companies looking to reduce costs, increase productivity and scale securely.",
+      "paragraph2": "We work with AWS, Azure, GCP and OCI to integrate systems, automate workflows and modernize environments aligned with business strategy."
+    },
+    "meta": {
+      "title": "Business Process Automation and Digital Transformation | Syntesys",
+      "description": "Consulting services specialized in business process automation, digital transformation and cloud computing for companies seeking efficiency and scalability."
+    },
   
-    "automacao": {
-      "meta": {
-        "title": "Process Automation | Syntesys",
-        "description": "Process automation, cloud, and digital transformation solutions for businesses."
+    "hero": {
+      "title": "Business Process Automation and Digital Transformation",
+      "subtitle": "We help companies automate processes, integrate systems and scale securely with cloud computing.",
+      "ctaPrimary": "Talk to a specialist",
+      "ctaSecondary": "Explore our services"
+    },
+  
+    "problems": {
+      "title": "Challenges holding your business back",
+      "items": [
+        "Manual processes that waste time and create errors",
+        "Disconnected systems that slow down operations",
+        "Lack of visibility over critical business processes",
+        "High operational costs and low productivity",
+        "Difficulty scaling without increasing complexity"
+      ]
+    },
+  
+    "solutions": {
+      "title": "Automation and digital transformation solutions",
+      "automation": {
+        "title": "Business Process Automation",
+        "description": "We analyze, optimize and automate processes to reduce operational costs and increase efficiency."
       },
-      "hero": {
-        "title": "Process automation and digital transformation",
-        "subtitle": "Reduce costs, eliminate manual tasks, and scale your operations with modern technology.",
-        "ctaPrimary": "Talk to a specialist",
-        "ctaSecondary": "See solutions"
+      "cloud": {
+        "title": "Automation and Cloud Computing",
+        "description": "We combine automation with AWS, Azure, GCP and OCI to build scalable, secure and resilient environments."
       },
-      "problems": {
-        "title": "Is your company facing any of these challenges?",
-        "items": [
-          "Slow, manual processes prone to errors",
-          "Systems that don't integrate",
-          "High operational IT costs",
-          "Lack of visibility and control",
-          "Teams stuck with repetitive tasks",
-          "Difficulty scaling operations"
-        ]
-      },
-      "solutions": {
-        "title": "Syntesys Solutions",
-        "automation": {
-          "title": "Process Automation",
-          "description": "We automate administrative and operational flows tailored to your business."
-        },
-        "cloud": {
-          "title": "Cloud & DevOps",
-          "description": "Secure, scalable infrastructure ready for growth with modern DevOps practices."
-        },
-        "digital": {
-          "title": "Digital Transformation",
-          "description": "Strategic modernization focused on results and efficiency."
-        }
-      },
-      "results": {
-        "title": "Results you can expect",
-        "items": [
-          "Reduced operational costs",
-          "Faster, more reliable processes",
-          "Increased productivity",
-          "Technology foundation ready to scale"
-        ]
-      },
-      "final": {
-        "title": "Ready to modernize your operations?",
-        "subtitle": "Discover how automation can boost your business.",
-        "cta": "Schedule a conversation"
+      "digital": {
+        "title": "Digital Transformation",
+        "description": "We modernize operations, systems and digital strategy to align technology with business goals."
       }
+    },
+  
+    "results": {
+      "title": "Business outcomes you can expect",
+      "items": [
+        "Lower operational costs",
+        "Higher team productivity",
+        "Faster and more reliable processes",
+        "Secure scalability",
+        "Data-driven decision making"
+      ]
+    },
+  
+    "final": {
+      "title": "Ready to automate your business?",
+      "subtitle": "Talk to our experts and discover how automation can transform your company.",
+      "cta": "Schedule a call"
+    }
     },  
   "locale": "en",
   "common": {

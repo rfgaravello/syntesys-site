@@ -1,55 +1,66 @@
-{
- 
+
+  {
+
   "automacao": {
+    "seo": {
+      "title": "Consultoria em Automação de Processos e Transformação Digital",
+      "paragraph1": "A Syntesys oferece consultoria especializada em automação de processos empresariais, transformação digital e cloud computing para empresas que buscam reduzir custos, aumentar produtividade e escalar com segurança.",
+      "paragraph2": "Atuamos com AWS, Azure, GCP e OCI, integrando sistemas, automatizando fluxos e modernizando ambientes para alinhar tecnologia aos objetivos estratégicos do negócio."
+    },
     "meta": {
-      "title": "Automação de Processos | Syntesys",
-      "description": "Automação de processos, cloud e transformação digital para empresas."
+      "title": "Automação de Processos Empresariais e Transformação Digital | Syntesys",
+      "description": "Consultoria especializada em automação de processos empresariais, transformação digital e cloud computing para empresas que buscam eficiência, escala e redução de custos."
     },
+  
     "hero": {
-      "title": "Automação de processos e transformação digital",
-      "subtitle": "Reduza custos, elimine tarefas manuais e escale sua operação com tecnologia moderna.",
-      "ctaPrimary": "Falar com especialista",
-      "ctaSecondary": "Ver soluções"
+      "title": "Automação de Processos e Transformação Digital para Empresas",
+      "subtitle": "Ajudamos empresas a automatizar processos, integrar sistemas e escalar com cloud computing de forma segura e eficiente.",
+      "ctaPrimary": "Falar com um especialista",
+      "ctaSecondary": "Conhecer nossos serviços"
     },
+  
     "problems": {
-      "title": "Sua empresa enfrenta algum desses desafios?",
+      "title": "Desafios que impedem sua empresa de escalar",
       "items": [
-        "Processos manuais lentos e sujeitos a erro",
-        "Sistemas que não se integram",
-        "Alto custo operacional em TI",
-        "Falta de visibilidade e controle",
-        "Equipes presas a tarefas repetitivas",
-        "Dificuldade para escalar operações"
+        "Processos manuais que consomem tempo e geram erros",
+        "Sistemas que não se integram e dificultam a operação",
+        "Falta de visibilidade e controle sobre processos críticos",
+        "Custos operacionais elevados e baixa produtividade",
+        "Dificuldade em escalar sem aumentar a complexidade"
       ]
     },
+  
     "solutions": {
-      "title": "Soluções da Syntesys",
+      "title": "Soluções em automação e transformação digital",
       "automation": {
-        "title": "Automação de Processos",
-        "description": "Automatizamos fluxos administrativos e operacionais sob medida."
+        "title": "Automação de Processos Empresariais",
+        "description": "Mapeamos, otimizamos e automatizamos processos para reduzir custos operacionais, eliminar retrabalho e aumentar a eficiência do negócio."
       },
       "cloud": {
-        "title": "Cloud & DevOps",
-        "description": "Infraestrutura escalável, segura e preparada para crescimento."
+        "title": "Automação e Cloud Computing",
+        "description": "Integramos automação com AWS, Azure, GCP e OCI para criar ambientes escaláveis, seguros e preparados para crescimento."
       },
       "digital": {
         "title": "Transformação Digital",
-        "description": "Modernização estratégica com foco em resultado."
+        "description": "Modernizamos operações, sistemas e cultura digital para que sua empresa evolua com tecnologia alinhada aos objetivos de negócio."
       }
     },
+  
     "results": {
-      "title": "Resultados que você pode esperar",
+      "title": "Resultados que sua empresa pode alcançar",
       "items": [
         "Redução de custos operacionais",
+        "Aumento da produtividade das equipes",
         "Processos mais rápidos e confiáveis",
-        "Aumento de produtividade",
-        "Base tecnológica pronta para escalar"
+        "Escalabilidade com segurança",
+        "Tomada de decisão baseada em dados"
       ]
     },
+  
     "final": {
-      "title": "Pronto para modernizar sua operação?",
-      "subtitle": "Descubra como a automação pode impulsionar seu negócio.",
-      "cta": "Agendar conversa"
+      "title": "Pronto para automatizar seus processos?",
+      "subtitle": "Fale com nossos especialistas e descubra como a automação pode transformar sua empresa.",
+      "cta": "Agendar uma conversa"
     }
   },
   "common": {
